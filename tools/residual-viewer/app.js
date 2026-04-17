@@ -2,7 +2,8 @@ const state = {
     data: window.VIEWER_DATA || [],
     filter: 'all',
     selectedId: null,
-    chartInstance: null
+    chartInstance: null,
+    overviewChart: null
 };
 
 function init() {
@@ -21,6 +22,92 @@ function init() {
     });
 
     renderSidebar();
+    drawOverviewScatter();
+}
+
+function drawOverviewScatter() {
+    const ctx = document.getElementById('scatterChart').getContext('2d');
+    
+    const colors = {
+        'A': '#ef4444', 
+        'B': '#10b981', 
+        'Normal': '#94a3b8'
+    };
+
+    const groups = { 'Pattern B (再燃)': [], 'Normal (適正)': [], 'Pattern A (失速)': [] };
+
+    state.data.forEach(item => {
+        let gName = 'Normal (適正)';
+        if (item.pattern.includes('Pattern A')) gName = 'Pattern A (失速)';
+        if (item.pattern.includes('Pattern B')) gName = 'Pattern B (再燃)';
+
+        groups[gName].push({
+            x: item.y_pred,
+            y: item.y_3m_gt,
+            title: item.title_ja,
+            residual: item.residual,
+            id: item.id
+        });
+    });
+
+    const datasets = Object.keys(groups).map(key => {
+        let color = colors['Normal'];
+        if (key.includes('Pattern A')) color = colors['A'];
+        if (key.includes('Pattern B')) color = colors['B'];
+
+        return {
+            label: key,
+            data: groups[key],
+            backgroundColor: color,
+            borderColor: color,
+            pointRadius: 6,
+            pointHoverRadius: 8
+        };
+    });
+
+    state.overviewChart = new Chart(ctx, {
+        type: 'scatter',
+        data: { datasets },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function(ctx) {
+                            const pt = ctx.raw;
+                            return `${pt.title} (予測: ${pt.x.toFixed(1)}, 実測: ${pt.y.toFixed(1)}, 残差: ${pt.residual.toFixed(1)})`;
+                        }
+                    }
+                },
+                annotation: {
+                    annotations: {
+                        line1: {
+                            type: 'line',
+                            xMin: 0, xMax: 100,
+                            yMin: 0, yMax: 100,
+                            borderColor: '#cbd5e1',
+                            borderWidth: 2,
+                            borderDash: [5, 5],
+                            label: { content: 'Perfect Prediction (y=x)', display: true, position: 'end', backgroundColor: '#cbd5e1', color: '#1e293b' }
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: { title: { display: true, text: '3ヶ月後 予測値 (Predicted)' }, min: 0, max: 100 },
+                y: { title: { display: true, text: '3ヶ月後 実測値 (Actual)' }, min: 0, max: 100 }
+            },
+            onClick: (e, activeElements) => {
+                if (activeElements.length > 0) {
+                    const datasetIndex = activeElements[0].datasetIndex;
+                    const index = activeElements[0].index;
+                    const pt = datasets[datasetIndex].data[index];
+                    selectAnime(pt.id);
+                }
+            }
+        }
+    });
 }
 
 function getPatternGroup(pattern) {

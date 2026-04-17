@@ -30,9 +30,12 @@
         </aside>
         <main class="main-content">
             <div id="welcome-state" class="state-view">
-                <div class="welcome-box">
-                    <h2>サイドバーから作品を選択してください</h2>
-                    <p>初速から3ヶ月後にかけてのトレンド推移と、予測のズレ（残差）を確認できます。</p>
+                <div class="welcome-box" style="margin-top: 2vh; margin-bottom: 24px;">
+                    <h2>全作品の「予測と現実のズレ」を俯瞰</h2>
+                    <p style="margin-bottom: 12px;">右下の緑（Pattern B）は予測より伸びた作品、左上の赤（Pattern A）は予測より失速した作品です。<br>点をクリックすると詳細を確認できます。</p>
+                </div>
+                <div class="chart-wrapper" style="height: 500px;">
+                    <canvas id="scatterChart"></canvas>
                 </div>
             </div>
             <div id="detail-state" class="state-view hidden">
