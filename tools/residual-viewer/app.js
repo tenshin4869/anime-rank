@@ -69,7 +69,7 @@ function selectAnime(id) {
 
     // Update Header
     document.getElementById('anime-title').textContent = item.title_ja;
-    document.getElementById('anime-dates').textContent = `Air Start: ${item.air_start}`;
+    document.getElementById('anime-dates').textContent = `放送開始日: ${item.air_start}`;
     
     const group = getPatternGroup(item.pattern);
     const badge = document.getElementById('anime-pattern');
@@ -107,7 +107,7 @@ function drawChart(item) {
             labels: labels,
             datasets: [
                 {
-                    label: 'Google Trends Score',
+                    label: 'Google Trends スコア',
                     data: dataGT,
                     borderColor: '#f59e0b',
                     backgroundColor: 'rgba(245, 158, 11, 0.1)',
@@ -145,7 +145,7 @@ function drawChart(item) {
                             borderColor: '#94a3b8',
                             borderWidth: 2,
                             borderDash: [4, 4],
-                            label: { content: 'End of Input (Day 21)', display: true, position: 'start', backgroundColor: '#94a3b8', font: {size: 10} }
+                            label: { content: '初速データの境界 (Day 21)', display: true, position: 'start', backgroundColor: '#94a3b8', font: {size: 10} }
                         },
                         line2: {
                             type: 'line',
@@ -153,7 +153,7 @@ function drawChart(item) {
                             borderColor: '#ef4444',
                             borderWidth: 2,
                             borderDash: [4, 4],
-                            label: { content: '3M Target (Day 90)', display: true, position: 'start', backgroundColor: '#ef4444', font: {size: 10} }
+                            label: { content: '3M 予測ターゲット (Day 90)', display: true, position: 'start', backgroundColor: '#ef4444', font: {size: 10} }
                         }
                     }
                 }

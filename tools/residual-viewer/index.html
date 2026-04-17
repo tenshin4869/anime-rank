@@ -13,13 +13,13 @@
     <div id="app">
         <aside class="sidebar">
             <div class="sidebar-header">
-                <h2>Anime Patterns</h2>
+                <h2>残差パターン一覧</h2>
                 <div class="summary-stats">
-                    <span id="stat-total">0</span> titles available
+                    <span id="stat-total">0</span> 作品
                 </div>
             </div>
             <div class="sidebar-filters">
-                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn active" data-filter="all">すべて</button>
                 <button class="filter-btn" data-filter="Pattern A">Pattern A</button>
                 <button class="filter-btn" data-filter="Pattern B">Pattern B</button>
                 <button class="filter-btn" data-filter="Normal">Normal</button>
@@ -31,33 +31,33 @@
         <main class="main-content">
             <div id="welcome-state" class="state-view">
                 <div class="welcome-box">
-                    <h2>Select an anime from the sidebar</h2>
-                    <p>Analyze how the 3-month prediction diverted from actual data.</p>
+                    <h2>サイドバーから作品を選択してください</h2>
+                    <p>初速から3ヶ月後にかけてのトレンド推移と、予測のズレ（残差）を確認できます。</p>
                 </div>
             </div>
             <div id="detail-state" class="state-view hidden">
                 <header class="detail-header">
                     <div>
                         <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 8px;">
-                            <h1 id="anime-title">Title</h1>
+                            <h1 id="anime-title">タイトル</h1>
                             <span id="anime-pattern" class="badge">Pattern A</span>
                         </div>
-                        <p id="anime-dates" class="text-muted">Broadcast Date: MMMM DD, YYYY</p>
+                        <p id="anime-dates" class="text-muted">放送開始日: -</p>
                     </div>
                 </header>
                 <div class="metrics-grid">
                     <div class="metric-card">
-                        <h3>Predicted 3M GT</h3>
+                        <h3>3ヶ月後 予測値 (GT)</h3>
                         <div class="value" id="val-pred">-</div>
                     </div>
                     <div class="metric-card">
-                        <h3>Actual 3M GT</h3>
+                        <h3>3ヶ月後 実測値 (GT)</h3>
                         <div class="value" id="val-actual">-</div>
                     </div>
                     <div class="metric-card highlight">
-                        <h3>Residual Error</h3>
+                        <h3>予測のズレ (残差)</h3>
                         <div class="value" id="val-residual">-</div>
-                        <div class="sub-value">(Actual - Predicted)</div>
+                        <div class="sub-value">(実測値 - 予測値)</div>
                     </div>
                 </div>
                 <div class="chart-wrapper">
