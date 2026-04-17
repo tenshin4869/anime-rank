@@ -36,10 +36,10 @@ TARGET_NAMES = {"Y_1m_gt": "Y_1m（放送開始1ヶ月後）",
                 "Y_3m_gt": "Y_3m（放送開始3ヶ月後）"}
 
 FEATURE_COLS = [
-    "pv_w1",     "pv_w2",     "pv_w3",     "pv_w4",
-    "gt_w1",     "gt_w2",     "gt_w3",     "gt_w4",
-    "edit_w1",   "edit_w2",   "edit_w3",   "edit_w4",
-    "editor_w1", "editor_w2", "editor_w3", "editor_w4",
+    "pv_w1",     "pv_w2",     "pv_w3",
+    "gt_w1",     "gt_w2",     "gt_w3",
+    "edit_w1",   "edit_w2",   "edit_w3",
+    "editor_w1", "editor_w2", "editor_w3",
 ]
 
 MODELS = {

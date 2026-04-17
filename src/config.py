@@ -23,7 +23,7 @@ SRC_DIR             = Path(__file__).parent
 ANIME_CATALOG_PATH  = SRC_DIR / "anime_catalog.json"
 
 # ─── データ収集パラメータ ────────────────────────────────────────────────────
-INPUT_WINDOW_DAYS   = 28   # Day1〜Day28（第1〜4週）
+INPUT_WINDOW_DAYS   = 21   # Day1〜Day21（第1〜3週）
 Y_1M_OFFSET_DAYS    = 30   # 放送開始から1ヶ月後（air_start + 30日）
 Y_3M_OFFSET_DAYS    = 90   # 放送開始から3ヶ月後（air_start + 90日）
 

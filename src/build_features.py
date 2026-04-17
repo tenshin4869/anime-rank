@@ -171,7 +171,7 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
     input_df = daily_df[daily_df["phase"] == "input"].copy()
 
     weekly_rows = []
-    for wk in range(1, 5):
+    for wk in range(1, 4):
         wk_df = input_df[input_df["week_index"] == wk]
         if wk_df.empty:
             continue
@@ -210,7 +210,7 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
         return float(wk_gt["gt_score"].sum())
 
     master_row = {"anime_title": anime_title}
-    for wk in range(1, 5):
+    for wk in range(1, 4):
         wk_df = input_df[input_df["week_index"] == wk]
         master_row[f"pv_w{wk}"]     = wk_df["pv"].sum() if not wk_df.empty else np.nan
         master_row[f"edit_w{wk}"]   = wk_df["edit_count"].sum() if not wk_df.empty else 0
@@ -277,10 +277,10 @@ def main():
     # master.csv
     master_df = pd.DataFrame(master_rows)
     cols = ["anime_title",
-            "pv_w1",     "pv_w2",     "pv_w3",     "pv_w4",
-            "gt_w1",     "gt_w2",     "gt_w3",     "gt_w4",
-            "edit_w1",   "edit_w2",   "edit_w3",   "edit_w4",
-            "editor_w1", "editor_w2", "editor_w3", "editor_w4",
+            "pv_w1",     "pv_w2",     "pv_w3",
+            "gt_w1",     "gt_w2",     "gt_w3",
+            "edit_w1",   "edit_w2",   "edit_w3",
+            "editor_w1", "editor_w2", "editor_w3",
             "Y_1m_gt",   "Y_3m_gt"]
     master_df = master_df.reindex(columns=cols)
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)

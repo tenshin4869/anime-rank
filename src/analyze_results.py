@@ -43,21 +43,21 @@ TARGET_LABELS = {
 }
 
 FEATURE_COLS = [
-    "pv_w1",     "pv_w2",     "pv_w3",     "pv_w4",
-    "gt_w1",     "gt_w2",     "gt_w3",     "gt_w4",
-    "edit_w1",   "edit_w2",   "edit_w3",   "edit_w4",
-    "editor_w1", "editor_w2", "editor_w3", "editor_w4",
+    "pv_w1",     "pv_w2",     "pv_w3",
+    "gt_w1",     "gt_w2",     "gt_w3",
+    "edit_w1",   "edit_w2",   "edit_w3",
+    "editor_w1", "editor_w2", "editor_w3",
 ]
 
 FEATURE_LABELS = {
     "pv_w1":     "PV 第1週",     "pv_w2":     "PV 第2週",
-    "pv_w3":     "PV 第3週",     "pv_w4":     "PV 第4週",
+    "pv_w3":     "PV 第3週",
     "gt_w1":     "GT 第1週",     "gt_w2":     "GT 第2週",
-    "gt_w3":     "GT 第3週",     "gt_w4":     "GT 第4週",
+    "gt_w3":     "GT 第3週",
     "edit_w1":   "編集数 第1週", "edit_w2":   "編集数 第2週",
-    "edit_w3":   "編集数 第3週", "edit_w4":   "編集数 第4週",
+    "edit_w3":   "編集数 第3週",
     "editor_w1": "編集者 第1週", "editor_w2": "編集者 第2週",
-    "editor_w3": "編集者 第3週", "editor_w4": "編集者 第4週",
+    "editor_w3": "編集者 第3週",
 }
 
 
