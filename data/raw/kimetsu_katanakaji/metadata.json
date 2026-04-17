@@ -1,0 +1,16 @@
+{
+  "anime_title": "kimetsu_katanakaji",
+  "anime_title_ja": "鬼滅の刃 刀鍛冶の里編",
+  "wikipedia_page_title": "鬼滅の刃 刀鍛冶の里編",
+  "gt_query": "鬼滅の刃 刀鍛冶の里編",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-04-09_to_2023-07-08",
+  "air_start": "2023-04-09",
+  "air_end": "2023-06-18",
+  "total_episodes": 11,
+  "y_3m_date": "2023-07-08",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2023-05-09"
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "shingeki_final_season",
+  "anime_title_ja": "進撃の巨人 The Final Season",
+  "wikipedia_page_title": "進撃の巨人_(アニメ)",
+  "gt_query": "進撃の巨人",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2020-12-07_to_2021-03-07",
+  "air_start": "2020-12-07",
+  "air_end": "2021-03-29",
+  "total_episodes": 16,
+  "y_3m_date": "2021-03-07",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2021-01-06"
+}

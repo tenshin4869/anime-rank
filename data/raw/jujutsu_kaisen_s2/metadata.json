@@ -1,0 +1,16 @@
+{
+  "anime_title": "jujutsu_kaisen_s2",
+  "anime_title_ja": "呪術廻戦 第2期",
+  "wikipedia_page_title": "呪術廻戦",
+  "gt_query": "呪術廻戦",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-07-06_to_2023-10-04",
+  "air_start": "2023-07-06",
+  "air_end": "2023-12-28",
+  "total_episodes": 23,
+  "y_3m_date": "2023-10-04",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2023-08-05"
+}

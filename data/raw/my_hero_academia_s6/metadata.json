@@ -1,0 +1,16 @@
+{
+  "anime_title": "my_hero_academia_s6",
+  "anime_title_ja": "僕のヒーローアカデミア 第6期",
+  "wikipedia_page_title": "僕のヒーローアカデミア",
+  "gt_query": "僕のヒーローアカデミア",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-10-01_to_2022-12-30",
+  "air_start": "2022-10-01",
+  "air_end": "2023-03-25",
+  "total_episodes": 25,
+  "y_3m_date": "2022-12-30",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2022-10-31"
+}

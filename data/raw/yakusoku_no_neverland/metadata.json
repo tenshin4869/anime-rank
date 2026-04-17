@@ -1,0 +1,16 @@
+{
+  "anime_title": "yakusoku_no_neverland",
+  "anime_title_ja": "約束のネバーランド",
+  "wikipedia_page_title": "約束のネバーランド",
+  "gt_query": "約束のネバーランド",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-01-11_to_2019-04-11",
+  "air_start": "2019-01-11",
+  "air_end": "2019-03-29",
+  "total_episodes": 12,
+  "y_3m_date": "2019-04-11",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2019-02-10"
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "shangri_la_frontier",
+  "anime_title_ja": "シャングリラ・フロンティア",
+  "wikipedia_page_title": "シャングリラ・フロンティア",
+  "gt_query": "シャングリラフロンティア アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-10-01_to_2023-12-30",
+  "air_start": "2023-10-01",
+  "air_end": "2024-03-24",
+  "total_episodes": 25,
+  "y_1m_date": "2023-10-31",
+  "y_3m_date": "2023-12-30",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

@@ -1,0 +1,27 @@
+# OS generated files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+logs/
+
+# AI specific
+.claude/
+
+# Ignore specific large files if they show up in future
+*.h5
+*.hdf5
+*.pkl

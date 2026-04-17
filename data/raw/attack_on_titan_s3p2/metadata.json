@@ -1,0 +1,16 @@
+{
+  "anime_title": "attack_on_titan_s3p2",
+  "anime_title_ja": "進撃の巨人 第3期 Part2",
+  "wikipedia_page_title": "進撃の巨人 (アニメ)",
+  "gt_query": "進撃の巨人 3期 Part2",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-04-29_to_2019-07-28",
+  "air_start": "2019-04-29",
+  "air_end": "2019-07-01",
+  "total_episodes": 10,
+  "y_1m_date": "2019-05-29",
+  "y_3m_date": "2019-07-28",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

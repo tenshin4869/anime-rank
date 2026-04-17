@@ -1,0 +1,16 @@
+{
+  "anime_title": "kimetsu_hashira_geiko",
+  "anime_title_ja": "鬼滅の刃 柱稽古編",
+  "wikipedia_page_title": "鬼滅の刃 柱稽古編",
+  "gt_query": "鬼滅 柱稽古編",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2024-05-12_to_2024-08-10",
+  "air_start": "2024-05-12",
+  "air_end": "2024-06-30",
+  "total_episodes": 8,
+  "y_1m_date": "2024-06-11",
+  "y_3m_date": "2024-08-10",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

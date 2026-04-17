@@ -1,0 +1,16 @@
+{
+  "anime_title": "my_hero_academia_s4",
+  "anime_title_ja": "僕のヒーローアカデミア 第4期",
+  "wikipedia_page_title": "僕のヒーローアカデミア (アニメ)",
+  "gt_query": "ヒロアカ 4期",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-10-12_to_2020-01-10",
+  "air_start": "2019-10-12",
+  "air_end": "2020-04-04",
+  "total_episodes": 25,
+  "y_1m_date": "2019-11-11",
+  "y_3m_date": "2020-01-10",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

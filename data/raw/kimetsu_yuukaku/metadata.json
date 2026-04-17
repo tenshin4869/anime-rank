@@ -1,0 +1,16 @@
+{
+  "anime_title": "kimetsu_yuukaku",
+  "anime_title_ja": "鬼滅の刃 遊郭編",
+  "wikipedia_page_title": "鬼滅の刃 遊郭編",
+  "gt_query": "鬼滅の刃 遊郭編",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2021-12-05_to_2022-03-05",
+  "air_start": "2021-12-05",
+  "air_end": "2022-02-13",
+  "total_episodes": 11,
+  "y_3m_date": "2022-03-05",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2022-01-04"
+}

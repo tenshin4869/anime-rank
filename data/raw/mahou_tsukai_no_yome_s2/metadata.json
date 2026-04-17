@@ -1,0 +1,16 @@
+{
+  "anime_title": "mahou_tsukai_no_yome_s2",
+  "anime_title_ja": "魔法使いの嫁 SEASON 2",
+  "wikipedia_page_title": "魔法使いの嫁",
+  "gt_query": "魔法使いの嫁 Season2",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-04-07_to_2023-07-06",
+  "air_start": "2023-04-07",
+  "air_end": "2023-09-22",
+  "total_episodes": 24,
+  "y_1m_date": "2023-05-07",
+  "y_3m_date": "2023-07-06",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

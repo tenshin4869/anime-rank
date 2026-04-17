@@ -1,0 +1,16 @@
+{
+  "anime_title": "eizouken",
+  "anime_title_ja": "映像研には手を出すな！",
+  "wikipedia_page_title": "映像研には手を出すな!",
+  "gt_query": "映像研 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2020-01-05_to_2020-04-04",
+  "air_start": "2020-01-05",
+  "air_end": "2020-03-22",
+  "total_episodes": 12,
+  "y_1m_date": "2020-02-04",
+  "y_3m_date": "2020-04-04",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

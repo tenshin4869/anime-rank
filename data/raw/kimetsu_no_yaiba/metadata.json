@@ -1,0 +1,16 @@
+{
+  "anime_title": "kimetsu_no_yaiba",
+  "anime_title_ja": "鬼滅の刃",
+  "wikipedia_page_title": "鬼滅の刃",
+  "gt_query": "鬼滅の刃",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-04-06_to_2019-07-05",
+  "air_start": "2019-04-06",
+  "air_end": "2019-09-28",
+  "total_episodes": 26,
+  "y_3m_date": "2019-07-05",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2019-05-06"
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "youjo_senki",
+  "anime_title_ja": "幼女戦記",
+  "wikipedia_page_title": "幼女戦記",
+  "gt_query": "幼女戦記 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2017-01-06_to_2017-04-06",
+  "air_start": "2017-01-06",
+  "air_end": "2017-03-31",
+  "total_episodes": 12,
+  "y_1m_date": "2017-02-05",
+  "y_3m_date": "2017-04-06",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

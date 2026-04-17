@@ -1,0 +1,16 @@
+{
+  "anime_title": "blue_period",
+  "anime_title_ja": "ブルーピリオド",
+  "wikipedia_page_title": "ブルーピリオド",
+  "gt_query": "ブルーピリオド アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2021-10-01_to_2021-12-30",
+  "air_start": "2021-10-01",
+  "air_end": "2021-12-17",
+  "total_episodes": 12,
+  "y_1m_date": "2021-10-31",
+  "y_3m_date": "2021-12-30",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

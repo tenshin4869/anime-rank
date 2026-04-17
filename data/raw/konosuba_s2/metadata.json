@@ -1,0 +1,16 @@
+{
+  "anime_title": "konosuba_s2",
+  "anime_title_ja": "この素晴らしい世界に祝福を！2",
+  "wikipedia_page_title": "この素晴らしい世界に祝福を!2",
+  "gt_query": "このすば2 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2017-01-12_to_2017-04-12",
+  "air_start": "2017-01-12",
+  "air_end": "2017-03-16",
+  "total_episodes": 10,
+  "y_1m_date": "2017-02-11",
+  "y_3m_date": "2017-04-12",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

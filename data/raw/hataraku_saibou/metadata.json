@@ -1,0 +1,16 @@
+{
+  "anime_title": "hataraku_saibou",
+  "anime_title_ja": "はたらく細胞",
+  "wikipedia_page_title": "はたらく細胞",
+  "gt_query": "はたらく細胞 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2018-07-07_to_2018-10-05",
+  "air_start": "2018-07-07",
+  "air_end": "2018-09-29",
+  "total_episodes": 13,
+  "y_1m_date": "2018-08-06",
+  "y_3m_date": "2018-10-05",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

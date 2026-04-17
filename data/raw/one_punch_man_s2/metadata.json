@@ -1,0 +1,16 @@
+{
+  "anime_title": "one_punch_man_s2",
+  "anime_title_ja": "ワンパンマン 第2期",
+  "wikipedia_page_title": "ワンパンマン",
+  "gt_query": "ワンパンマン 2期",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-04-09_to_2019-07-08",
+  "air_start": "2019-04-09",
+  "air_end": "2019-07-02",
+  "total_episodes": 12,
+  "y_1m_date": "2019-05-09",
+  "y_3m_date": "2019-07-08",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

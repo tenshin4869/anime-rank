@@ -1,0 +1,16 @@
+{
+  "anime_title": "my_hero_academia_s2",
+  "anime_title_ja": "僕のヒーローアカデミア 第2期",
+  "wikipedia_page_title": "僕のヒーローアカデミア",
+  "gt_query": "ヒロアカ 2期",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2017-04-01_to_2017-06-30",
+  "air_start": "2017-04-01",
+  "air_end": "2017-09-30",
+  "total_episodes": 25,
+  "y_1m_date": "2017-05-01",
+  "y_3m_date": "2017-06-30",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

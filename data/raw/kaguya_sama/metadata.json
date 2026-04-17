@@ -1,0 +1,16 @@
+{
+  "anime_title": "kaguya_sama",
+  "anime_title_ja": "かぐや様は告らせたい",
+  "wikipedia_page_title": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
+  "gt_query": "かぐや様は告らせたい",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-01-12_to_2019-04-12",
+  "air_start": "2019-01-12",
+  "air_end": "2019-03-30",
+  "total_episodes": 12,
+  "y_3m_date": "2019-04-12",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2019-02-11"
+}

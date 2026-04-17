@@ -1,0 +1,16 @@
+{
+  "anime_title": "mushoku_tensei",
+  "anime_title_ja": "無職転生 ～異世界行ったら本気だす～",
+  "wikipedia_page_title": "無職転生_〜異世界行ったら本気だす〜",
+  "gt_query": "無職転生",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2021-01-11_to_2021-04-11",
+  "air_start": "2021-01-11",
+  "air_end": "2021-03-22",
+  "total_episodes": 11,
+  "y_3m_date": "2021-04-11",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2021-02-10"
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "eighty_six",
+  "anime_title_ja": "86-エイティシックス-",
+  "wikipedia_page_title": "86-エイティシックス-",
+  "gt_query": "86エイティシックス",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2021-04-10_to_2021-07-09",
+  "air_start": "2021-04-10",
+  "air_end": "2021-06-26",
+  "total_episodes": 11,
+  "y_3m_date": "2021-07-09",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2021-05-10"
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "mob_psycho_100_s3",
+  "anime_title_ja": "モブサイコ100 III",
+  "wikipedia_page_title": "モブサイコ100",
+  "gt_query": "モブサイコ100 III",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-10-05_to_2023-01-03",
+  "air_start": "2022-10-05",
+  "air_end": "2022-12-28",
+  "total_episodes": 12,
+  "y_1m_date": "2022-11-04",
+  "y_3m_date": "2023-01-03",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

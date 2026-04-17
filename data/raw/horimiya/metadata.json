@@ -1,0 +1,16 @@
+{
+  "anime_title": "horimiya",
+  "anime_title_ja": "ホリミヤ",
+  "wikipedia_page_title": "ホリミヤ",
+  "gt_query": "ホリミヤ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2021-01-10_to_2021-04-10",
+  "air_start": "2021-01-10",
+  "air_end": "2021-04-25",
+  "total_episodes": 13,
+  "y_3m_date": "2021-04-10",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2021-02-09"
+}

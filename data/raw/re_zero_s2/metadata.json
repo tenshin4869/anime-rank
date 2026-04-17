@@ -1,0 +1,16 @@
+{
+  "anime_title": "re_zero_s2",
+  "anime_title_ja": "Re:ゼロから始める異世界生活 第2期",
+  "wikipedia_page_title": "Re:ゼロから始める異世界生活",
+  "gt_query": "リゼロ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2020-07-08_to_2020-10-06",
+  "air_start": "2020-07-08",
+  "air_end": "2021-03-24",
+  "total_episodes": 25,
+  "y_3m_date": "2020-10-06",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2020-08-07"
+}

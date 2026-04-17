@@ -1,0 +1,16 @@
+{
+  "anime_title": "kage_no_jitsuryokusha",
+  "anime_title_ja": "陰の実力者になりたくて！",
+  "wikipedia_page_title": "陰の実力者になりたくて!",
+  "gt_query": "陰実 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-10-05_to_2023-01-03",
+  "air_start": "2022-10-05",
+  "air_end": "2023-03-22",
+  "total_episodes": 20,
+  "y_1m_date": "2022-11-04",
+  "y_3m_date": "2023-01-03",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "dungeon_meshi",
+  "anime_title_ja": "ダンジョン飯",
+  "wikipedia_page_title": "ダンジョン飯",
+  "gt_query": "ダンジョン飯 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2024-01-04_to_2024-04-03",
+  "air_start": "2024-01-04",
+  "air_end": "2024-06-28",
+  "total_episodes": 24,
+  "y_1m_date": "2024-02-03",
+  "y_3m_date": "2024-04-03",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

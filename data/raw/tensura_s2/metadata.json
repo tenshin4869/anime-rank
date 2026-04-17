@@ -1,0 +1,16 @@
+{
+  "anime_title": "tensura_s2",
+  "anime_title_ja": "転生したらスライムだった件 第2期",
+  "wikipedia_page_title": "転生したらスライムだった件",
+  "gt_query": "転生したらスライムだった件",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2021-01-12_to_2021-04-12",
+  "air_start": "2021-01-12",
+  "air_end": "2021-09-21",
+  "total_episodes": 24,
+  "y_3m_date": "2021-04-12",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2021-02-11"
+}

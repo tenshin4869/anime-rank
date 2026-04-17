@@ -1,0 +1,16 @@
+{
+  "anime_title": "spy_x_family_part2",
+  "anime_title_ja": "SPY×FAMILY Part 2",
+  "wikipedia_page_title": "SPY×FAMILY (アニメ)",
+  "gt_query": "スパイファミリー Part2",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-10-01_to_2022-12-30",
+  "air_start": "2022-10-01",
+  "air_end": "2022-12-24",
+  "total_episodes": 13,
+  "y_1m_date": "2022-10-31",
+  "y_3m_date": "2022-12-30",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

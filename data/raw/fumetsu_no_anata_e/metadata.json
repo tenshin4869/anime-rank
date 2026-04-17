@@ -1,0 +1,16 @@
+{
+  "anime_title": "fumetsu_no_anata_e",
+  "anime_title_ja": "不滅のあなたへ",
+  "wikipedia_page_title": "不滅のあなたへ",
+  "gt_query": "不滅のあなたへ アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2021-04-12_to_2021-07-11",
+  "air_start": "2021-04-12",
+  "air_end": "2021-09-27",
+  "total_episodes": 20,
+  "y_1m_date": "2021-05-12",
+  "y_3m_date": "2021-07-11",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

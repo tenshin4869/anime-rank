@@ -1,0 +1,16 @@
+{
+  "anime_title": "gundam_witch",
+  "anime_title_ja": "機動戦士ガンダム 水星の魔女",
+  "wikipedia_page_title": "機動戦士ガンダム 水星の魔女",
+  "gt_query": "水星の魔女",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-10-02_to_2022-12-31",
+  "air_start": "2022-10-02",
+  "air_end": "2022-12-25",
+  "total_episodes": 12,
+  "y_3m_date": "2022-12-31",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2022-11-01"
+}

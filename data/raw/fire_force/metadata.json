@@ -1,0 +1,16 @@
+{
+  "anime_title": "fire_force",
+  "anime_title_ja": "炎炎ノ消防隊",
+  "wikipedia_page_title": "炎炎ノ消防隊",
+  "gt_query": "炎炎ノ消防隊 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-07-06_to_2019-10-04",
+  "air_start": "2019-07-06",
+  "air_end": "2019-12-28",
+  "total_episodes": 24,
+  "y_1m_date": "2019-08-05",
+  "y_3m_date": "2019-10-04",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

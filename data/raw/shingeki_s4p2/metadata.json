@@ -1,0 +1,16 @@
+{
+  "anime_title": "shingeki_s4p2",
+  "anime_title_ja": "進撃の巨人 The Final Season Part2",
+  "wikipedia_page_title": "進撃の巨人",
+  "gt_query": "進撃の巨人",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-01-10_to_2022-04-10",
+  "air_start": "2022-01-10",
+  "air_end": "2022-04-04",
+  "total_episodes": 12,
+  "y_3m_date": "2022-04-10",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2022-02-09"
+}

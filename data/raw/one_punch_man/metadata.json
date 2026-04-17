@@ -1,0 +1,16 @@
+{
+  "anime_title": "one_punch_man",
+  "anime_title_ja": "ワンパンマン",
+  "wikipedia_page_title": "ワンパンマン",
+  "gt_query": "ワンパンマン アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2015-10-04_to_2016-01-02",
+  "air_start": "2015-10-04",
+  "air_end": "2015-12-20",
+  "total_episodes": 12,
+  "y_1m_date": "2015-11-03",
+  "y_3m_date": "2016-01-02",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

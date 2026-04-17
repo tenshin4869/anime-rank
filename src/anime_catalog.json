@@ -1,0 +1,1002 @@
+[
+  {
+    "anime_title": "kimetsu_no_yaiba",
+    "anime_title_ja": "鬼滅の刃",
+    "wikipedia_page_title": "鬼滅の刃",
+    "gt_query": "鬼滅の刃",
+    "air_start": "2019-04-06",
+    "air_end": "2019-09-28",
+    "total_episodes": 26,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "jujutsu_kaisen",
+    "anime_title_ja": "呪術廻戦",
+    "wikipedia_page_title": "呪術廻戦",
+    "gt_query": "呪術廻戦",
+    "air_start": "2020-10-03",
+    "air_end": "2021-03-27",
+    "total_episodes": 24,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "chainsaw_man",
+    "anime_title_ja": "チェンソーマン",
+    "wikipedia_page_title": "チェンソーマン",
+    "gt_query": "チェンソーマン",
+    "air_start": "2022-10-11",
+    "air_end": "2022-12-27",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "spy_x_family",
+    "anime_title_ja": "SPY×FAMILY",
+    "wikipedia_page_title": "SPY×FAMILY",
+    "gt_query": "SPY×FAMILY",
+    "air_start": "2022-04-09",
+    "air_end": "2022-07-02",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "bocchi_the_rock",
+    "anime_title_ja": "ぼっち・ざ・ろっく！",
+    "wikipedia_page_title": "ぼっち・ざ・ろっく!",
+    "gt_query": "ぼっち・ざ・ろっく",
+    "air_start": "2022-10-08",
+    "air_end": "2022-12-24",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "shingeki_final_season",
+    "anime_title_ja": "進撃の巨人 The Final Season",
+    "wikipedia_page_title": "進撃の巨人",
+    "gt_query": "進撃の巨人",
+    "air_start": "2020-12-07",
+    "air_end": "2021-03-29",
+    "total_episodes": 16,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "vinland_saga",
+    "anime_title_ja": "ヴィンランド・サガ",
+    "wikipedia_page_title": "ヴィンランド・サガ",
+    "gt_query": "ヴィンランド・サガ",
+    "air_start": "2019-07-08",
+    "air_end": "2019-12-30",
+    "total_episodes": 24,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "mushoku_tensei",
+    "anime_title_ja": "無職転生 ～異世界行ったら本気だす～",
+    "wikipedia_page_title": "無職転生_〜異世界行ったら本気だす〜",
+    "gt_query": "無職転生",
+    "air_start": "2021-01-11",
+    "air_end": "2021-03-22",
+    "total_episodes": 11,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "violet_evergarden",
+    "anime_title_ja": "ヴァイオレット・エヴァーガーデン",
+    "wikipedia_page_title": "ヴァイオレット・エヴァーガーデン",
+    "gt_query": "ヴァイオレット・エヴァーガーデン",
+    "air_start": "2018-01-11",
+    "air_end": "2018-04-05",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "eighty_six",
+    "anime_title_ja": "86-エイティシックス-",
+    "wikipedia_page_title": "86-エイティシックス-",
+    "gt_query": "86エイティシックス",
+    "air_start": "2021-04-10",
+    "air_end": "2021-06-26",
+    "total_episodes": 11,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "yakusoku_no_neverland",
+    "anime_title_ja": "約束のネバーランド",
+    "wikipedia_page_title": "約束のネバーランド",
+    "gt_query": "約束のネバーランド",
+    "air_start": "2019-01-11",
+    "air_end": "2019-03-29",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "tensei_slime",
+    "anime_title_ja": "転生したらスライムだった件",
+    "wikipedia_page_title": "転生したらスライムだった件",
+    "gt_query": "転生したらスライムだった件",
+    "air_start": "2018-10-02",
+    "air_end": "2019-03-26",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "darling_in_the_franxx",
+    "anime_title_ja": "ダーリン・イン・ザ・フランキス",
+    "wikipedia_page_title": "ダーリン・イン・ザ・フランキス",
+    "gt_query": "ダーリン・イン・ザ・フランキス",
+    "air_start": "2018-01-13",
+    "air_end": "2018-07-07",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "tokyo_revengers",
+    "anime_title_ja": "東京リベンジャーズ",
+    "wikipedia_page_title": "東京卍リベンジャーズ",
+    "gt_query": "東京リベンジャーズ",
+    "air_start": "2021-04-11",
+    "air_end": "2021-09-19",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "lycoris_recoil",
+    "anime_title_ja": "リコリス・リコイル",
+    "wikipedia_page_title": "リコリス・リコイル",
+    "gt_query": "リコリス・リコイル",
+    "air_start": "2022-07-02",
+    "air_end": "2022-09-24",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "kaguya_sama",
+    "anime_title_ja": "かぐや様は告らせたい",
+    "wikipedia_page_title": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
+    "gt_query": "かぐや様は告らせたい",
+    "air_start": "2019-01-12",
+    "air_end": "2019-03-30",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "gotoubun_no_hanayome",
+    "anime_title_ja": "五等分の花嫁",
+    "wikipedia_page_title": "五等分の花嫁",
+    "gt_query": "五等分の花嫁",
+    "air_start": "2019-01-10",
+    "air_end": "2019-03-28",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "oregairu_kan",
+    "anime_title_ja": "やはり俺の青春ラブコメはまちがっている。完",
+    "wikipedia_page_title": "やはり俺の青春ラブコメはまちがっている。",
+    "gt_query": "やはり俺の青春ラブコメはまちがっている",
+    "air_start": "2020-07-09",
+    "air_end": "2020-09-24",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "sora_yori",
+    "anime_title_ja": "宇宙よりも遠い場所",
+    "wikipedia_page_title": "宇宙よりも遠い場所",
+    "gt_query": "宇宙よりも遠い場所",
+    "air_start": "2018-01-02",
+    "air_end": "2018-03-27",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "heike_monogatari",
+    "anime_title_ja": "平家物語",
+    "wikipedia_page_title": "平家物語",
+    "gt_query": "平家物語 アニメ",
+    "air_start": "2021-09-16",
+    "air_end": "2021-12-09",
+    "total_episodes": 11,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "dr_stone",
+    "anime_title_ja": "Dr.STONE",
+    "wikipedia_page_title": "Dr.STONE",
+    "gt_query": "Dr.STONE",
+    "air_start": "2019-07-05",
+    "air_end": "2019-12-13",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "horimiya",
+    "anime_title_ja": "ホリミヤ",
+    "wikipedia_page_title": "ホリミヤ",
+    "gt_query": "ホリミヤ",
+    "air_start": "2021-01-10",
+    "air_end": "2021-04-25",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "yurucamp",
+    "anime_title_ja": "ゆるキャン△",
+    "wikipedia_page_title": "ゆるキャン△",
+    "gt_query": "ゆるキャン",
+    "air_start": "2018-01-04",
+    "air_end": "2018-03-29",
+    "total_episodes": 12,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "kakushigoto",
+    "anime_title_ja": "かくしごと",
+    "wikipedia_page_title": "かくしごと",
+    "gt_query": "かくしごと アニメ",
+    "air_start": "2020-04-05",
+    "air_end": "2020-06-21",
+    "total_episodes": 12,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "sk8_the_infinity",
+    "anime_title_ja": "SK∞ エスケーエイト",
+    "wikipedia_page_title": "SK∞ エスケーエイト",
+    "gt_query": "SK∞",
+    "air_start": "2021-01-10",
+    "air_end": "2021-04-04",
+    "total_episodes": 12,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "summertime_rendering",
+    "anime_title_ja": "サマータイムレンダ",
+    "wikipedia_page_title": "サマータイムレンダ",
+    "gt_query": "サマータイムレンダ",
+    "air_start": "2022-04-07",
+    "air_end": "2022-09-29",
+    "total_episodes": 25,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "arifureta",
+    "anime_title_ja": "ありふれた職業で世界最強",
+    "wikipedia_page_title": "ありふれた職業で世界最強",
+    "gt_query": "ありふれた職業で世界最強",
+    "air_start": "2019-07-08",
+    "air_end": "2019-10-07",
+    "total_episodes": 13,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "wotakoi",
+    "anime_title_ja": "ヲタクに恋は難しい",
+    "wikipedia_page_title": "ヲタクに恋は難しい",
+    "gt_query": "ヲタクに恋は難しい",
+    "air_start": "2018-04-13",
+    "air_end": "2018-07-06",
+    "total_episodes": 11,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "talentless_nana",
+    "anime_title_ja": "無能なナナ",
+    "wikipedia_page_title": "無能なナナ",
+    "gt_query": "無能なナナ",
+    "air_start": "2020-10-04",
+    "air_end": "2020-12-27",
+    "total_episodes": 13,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "maidragon_s2",
+    "anime_title_ja": "小林さんちのメイドラゴン",
+    "wikipedia_page_title": "小林さんちのメイドラゴン",
+    "gt_query": "小林さんちのメイドラゴン",
+    "air_start": "2021-07-08",
+    "air_end": "2021-09-29",
+    "total_episodes": 12,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "re_zero_s2",
+    "anime_title_ja": "Re:ゼロから始める異世界生活 第2期",
+    "wikipedia_page_title": "Re:ゼロから始める異世界生活",
+    "gt_query": "リゼロ",
+    "air_start": "2020-07-08",
+    "air_end": "2021-03-24",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "ousama_ranking",
+    "anime_title_ja": "王様ランキング",
+    "wikipedia_page_title": "王様ランキング",
+    "gt_query": "王様ランキング",
+    "air_start": "2021-10-15",
+    "air_end": "2022-03-25",
+    "total_episodes": 23,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "blue_lock",
+    "anime_title_ja": "ブルーロック",
+    "wikipedia_page_title": "ブルーロック",
+    "gt_query": "ブルーロック",
+    "air_start": "2022-10-08",
+    "air_end": "2023-03-25",
+    "total_episodes": 24,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "sono_bisque_doll",
+    "anime_title_ja": "その着せ替え人形は恋をする",
+    "wikipedia_page_title": "その着せ替え人形は恋をする",
+    "gt_query": "着せ恋",
+    "air_start": "2022-01-09",
+    "air_end": "2022-03-27",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "oshi_no_ko",
+    "anime_title_ja": "推しの子",
+    "wikipedia_page_title": "推しの子",
+    "gt_query": "推しの子",
+    "air_start": "2023-04-12",
+    "air_end": "2023-06-28",
+    "total_episodes": 11,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "frieren",
+    "anime_title_ja": "葬送のフリーレン",
+    "wikipedia_page_title": "葬送のフリーレン",
+    "gt_query": "葬送のフリーレン",
+    "air_start": "2023-09-29",
+    "air_end": "2024-03-22",
+    "total_episodes": 28,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "jujutsu_kaisen_s2",
+    "anime_title_ja": "呪術廻戦 第2期",
+    "wikipedia_page_title": "呪術廻戦",
+    "gt_query": "呪術廻戦",
+    "air_start": "2023-07-06",
+    "air_end": "2023-12-28",
+    "total_episodes": 23,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "umamusume_s2",
+    "anime_title_ja": "ウマ娘 プリティーダービー Season 2",
+    "wikipedia_page_title": "ウマ娘 プリティーダービー",
+    "gt_query": "ウマ娘",
+    "air_start": "2021-02-07",
+    "air_end": "2021-06-27",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "kimetsu_yuukaku",
+    "anime_title_ja": "鬼滅の刃 遊郭編",
+    "wikipedia_page_title": "鬼滅の刃 遊郭編",
+    "gt_query": "鬼滅の刃 遊郭編",
+    "air_start": "2021-12-05",
+    "air_end": "2022-02-13",
+    "total_episodes": 11,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "kimetsu_katanakaji",
+    "anime_title_ja": "鬼滅の刃 刀鍛冶の里編",
+    "wikipedia_page_title": "鬼滅の刃 刀鍛冶の里編",
+    "gt_query": "鬼滅の刃 刀鍛冶の里編",
+    "air_start": "2023-04-09",
+    "air_end": "2023-06-18",
+    "total_episodes": 11,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "gundam_witch",
+    "anime_title_ja": "機動戦士ガンダム 水星の魔女",
+    "wikipedia_page_title": "機動戦士ガンダム 水星の魔女",
+    "gt_query": "水星の魔女",
+    "air_start": "2022-10-02",
+    "air_end": "2022-12-25",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "shingeki_s4p2",
+    "anime_title_ja": "進撃の巨人 The Final Season Part2",
+    "wikipedia_page_title": "進撃の巨人",
+    "gt_query": "進撃の巨人",
+    "air_start": "2022-01-10",
+    "air_end": "2022-04-04",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "mushoku_tensei_s2",
+    "anime_title_ja": "無職転生 〜異世界行ったら本気だす〜 第2部",
+    "wikipedia_page_title": "無職転生_〜異世界行ったら本気だす〜",
+    "gt_query": "無職転生",
+    "air_start": "2023-07-02",
+    "air_end": "2023-12-24",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "kaguya_s3",
+    "anime_title_ja": "かぐや様は告らせたい -ウルトラロマンティック-",
+    "wikipedia_page_title": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
+    "gt_query": "かぐや様は告らせたい",
+    "air_start": "2022-04-09",
+    "air_end": "2022-06-25",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "my_hero_academia_s6",
+    "anime_title_ja": "僕のヒーローアカデミア 第6期",
+    "wikipedia_page_title": "僕のヒーローアカデミア",
+    "gt_query": "僕のヒーローアカデミア",
+    "air_start": "2022-10-01",
+    "air_end": "2023-03-25",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "odd_taxi",
+    "anime_title_ja": "オッドタクシー",
+    "wikipedia_page_title": "オッドタクシー",
+    "gt_query": "オッドタクシー",
+    "air_start": "2021-04-06",
+    "air_end": "2021-06-29",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "tensura_s2",
+    "anime_title_ja": "転生したらスライムだった件 第2期",
+    "wikipedia_page_title": "転生したらスライムだった件",
+    "gt_query": "転生したらスライムだった件",
+    "air_start": "2021-01-12",
+    "air_end": "2021-09-21",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "sword_art_online_alicization",
+    "anime_title_ja": "ソードアート・オンライン アリシゼーション",
+    "wikipedia_page_title": "ソードアート・オンライン アリシゼーション",
+    "gt_query": "ソードアート・オンライン アリシゼーション",
+    "air_start": "2018-10-07",
+    "air_end": "2019-03-31",
+    "total_episodes": 24,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "boku_no_kokoro",
+    "anime_title_ja": "僕の心のヤバイやつ",
+    "wikipedia_page_title": "僕の心のヤバイやつ",
+    "gt_query": "僕ヤバ",
+    "air_start": "2023-04-02",
+    "air_end": "2023-06-25",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "vivy",
+    "anime_title_ja": "Vivy -Fluorite Eye's Song-",
+    "wikipedia_page_title": "Vivy -Fluorite Eye's Song-",
+    "gt_query": "Vivy アニメ",
+    "air_start": "2021-04-03",
+    "air_end": "2021-07-03",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "one_punch_man",
+    "anime_title_ja": "ワンパンマン",
+    "wikipedia_page_title": "ワンパンマン",
+    "gt_query": "ワンパンマン アニメ",
+    "air_start": "2015-10-04",
+    "air_end": "2015-12-20",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "konosuba_s1",
+    "anime_title_ja": "この素晴らしい世界に祝福を！",
+    "wikipedia_page_title": "この素晴らしい世界に祝福を!",
+    "gt_query": "このすば アニメ",
+    "air_start": "2016-01-14",
+    "air_end": "2016-03-30",
+    "total_episodes": 10,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "re_zero_s1",
+    "anime_title_ja": "Re:ゼロから始める異世界生活",
+    "wikipedia_page_title": "Re:ゼロから始める異世界生活",
+    "gt_query": "リゼロ アニメ",
+    "air_start": "2016-04-04",
+    "air_end": "2016-09-19",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "my_hero_academia_s1",
+    "anime_title_ja": "僕のヒーローアカデミア 第1期",
+    "wikipedia_page_title": "僕のヒーローアカデミア",
+    "gt_query": "ヒロアカ アニメ",
+    "air_start": "2016-04-03",
+    "air_end": "2016-06-26",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "mob_psycho_100",
+    "anime_title_ja": "モブサイコ100",
+    "wikipedia_page_title": "モブサイコ100",
+    "gt_query": "モブサイコ100 アニメ",
+    "air_start": "2016-07-12",
+    "air_end": "2016-09-27",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "yuri_on_ice",
+    "anime_title_ja": "ユーリ!!! on ICE",
+    "wikipedia_page_title": "ユーリ!!! on ICE",
+    "gt_query": "ユーリオンアイス アニメ",
+    "air_start": "2016-10-06",
+    "air_end": "2016-12-22",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "konosuba_s2",
+    "anime_title_ja": "この素晴らしい世界に祝福を！2",
+    "wikipedia_page_title": "この素晴らしい世界に祝福を!2",
+    "gt_query": "このすば2 アニメ",
+    "air_start": "2017-01-12",
+    "air_end": "2017-03-16",
+    "total_episodes": 10,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "youjo_senki",
+    "anime_title_ja": "幼女戦記",
+    "wikipedia_page_title": "幼女戦記",
+    "gt_query": "幼女戦記 アニメ",
+    "air_start": "2017-01-06",
+    "air_end": "2017-03-31",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "my_hero_academia_s2",
+    "anime_title_ja": "僕のヒーローアカデミア 第2期",
+    "wikipedia_page_title": "僕のヒーローアカデミア",
+    "gt_query": "ヒロアカ 2期",
+    "air_start": "2017-04-01",
+    "air_end": "2017-09-30",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "attack_on_titan_s2",
+    "anime_title_ja": "進撃の巨人 第2期",
+    "wikipedia_page_title": "進撃の巨人 (アニメ)",
+    "gt_query": "進撃の巨人 2期",
+    "air_start": "2017-04-01",
+    "air_end": "2017-06-17",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "made_in_abyss",
+    "anime_title_ja": "メイドインアビス",
+    "wikipedia_page_title": "メイドインアビス",
+    "gt_query": "メイドインアビス アニメ",
+    "air_start": "2017-07-07",
+    "air_end": "2017-09-29",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "my_hero_academia_s3",
+    "anime_title_ja": "僕のヒーローアカデミア 第3期",
+    "wikipedia_page_title": "僕のヒーローアカデミア",
+    "gt_query": "ヒロアカ 3期",
+    "air_start": "2018-04-07",
+    "air_end": "2018-09-29",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "hataraku_saibou",
+    "anime_title_ja": "はたらく細胞",
+    "wikipedia_page_title": "はたらく細胞",
+    "gt_query": "はたらく細胞 アニメ",
+    "air_start": "2018-07-07",
+    "air_end": "2018-09-29",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "attack_on_titan_s3",
+    "anime_title_ja": "進撃の巨人 第3期",
+    "wikipedia_page_title": "進撃の巨人 (アニメ)",
+    "gt_query": "進撃の巨人 3期",
+    "air_start": "2018-07-23",
+    "air_end": "2018-10-15",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "goblin_slayer",
+    "anime_title_ja": "ゴブリンスレイヤー",
+    "wikipedia_page_title": "ゴブリンスレイヤー",
+    "gt_query": "ゴブリンスレイヤー アニメ",
+    "air_start": "2018-10-07",
+    "air_end": "2018-12-30",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "tate_no_yuusha",
+    "anime_title_ja": "盾の勇者の成り上がり",
+    "wikipedia_page_title": "盾の勇者の成り上がり",
+    "gt_query": "盾の勇者 アニメ",
+    "air_start": "2019-01-09",
+    "air_end": "2019-06-26",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "attack_on_titan_s3p2",
+    "anime_title_ja": "進撃の巨人 第3期 Part2",
+    "wikipedia_page_title": "進撃の巨人 (アニメ)",
+    "gt_query": "進撃の巨人 3期 Part2",
+    "air_start": "2019-04-29",
+    "air_end": "2019-07-01",
+    "total_episodes": 10,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "fruits_basket_2019",
+    "anime_title_ja": "フルーツバスケット（2019年）",
+    "wikipedia_page_title": "フルーツバスケット",
+    "gt_query": "フルーツバスケット 2019",
+    "air_start": "2019-04-06",
+    "air_end": "2019-09-21",
+    "total_episodes": 25,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "fire_force",
+    "anime_title_ja": "炎炎ノ消防隊",
+    "wikipedia_page_title": "炎炎ノ消防隊",
+    "gt_query": "炎炎ノ消防隊 アニメ",
+    "air_start": "2019-07-06",
+    "air_end": "2019-12-28",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "cautious_hero",
+    "anime_title_ja": "慎重勇者〜この勇者が俺TUEEEくせに慎重すぎる〜",
+    "wikipedia_page_title": "慎重勇者〜この勇者が俺TUEEEくせに慎重すぎる〜",
+    "gt_query": "慎重勇者 アニメ",
+    "air_start": "2019-10-02",
+    "air_end": "2019-12-25",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "one_punch_man_s2",
+    "anime_title_ja": "ワンパンマン 第2期",
+    "wikipedia_page_title": "ワンパンマン",
+    "gt_query": "ワンパンマン 2期",
+    "air_start": "2019-04-09",
+    "air_end": "2019-07-02",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "my_hero_academia_s4",
+    "anime_title_ja": "僕のヒーローアカデミア 第4期",
+    "wikipedia_page_title": "僕のヒーローアカデミア (アニメ)",
+    "gt_query": "ヒロアカ 4期",
+    "air_start": "2019-10-12",
+    "air_end": "2020-04-04",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "eizouken",
+    "anime_title_ja": "映像研には手を出すな！",
+    "wikipedia_page_title": "映像研には手を出すな!",
+    "gt_query": "映像研 アニメ",
+    "air_start": "2020-01-05",
+    "air_end": "2020-03-22",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "hamefura",
+    "anime_title_ja": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった",
+    "wikipedia_page_title": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった",
+    "gt_query": "はめふら アニメ",
+    "air_start": "2020-04-04",
+    "air_end": "2020-06-27",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "tower_of_god",
+    "anime_title_ja": "神之塔 -Tower of God-",
+    "wikipedia_page_title": "神之塔 -Tower of God-",
+    "gt_query": "タワーオブゴッド アニメ",
+    "air_start": "2020-04-02",
+    "air_end": "2020-06-25",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "deca_dence",
+    "anime_title_ja": "デカダンス",
+    "wikipedia_page_title": "デカダンス",
+    "gt_query": "デカダンス アニメ",
+    "air_start": "2020-07-09",
+    "air_end": "2020-09-24",
+    "total_episodes": 12,
+    "popularity_tier": "low"
+  },
+  {
+    "anime_title": "haikyuu_s4p2",
+    "anime_title_ja": "ハイキュー!! TO THE TOP 第2クール",
+    "wikipedia_page_title": "ハイキュー!! TO THE TOP",
+    "gt_query": "ハイキュー TO THE TOP",
+    "air_start": "2020-10-03",
+    "air_end": "2020-12-19",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "my_hero_academia_s5",
+    "anime_title_ja": "僕のヒーローアカデミア 第5期",
+    "wikipedia_page_title": "僕のヒーローアカデミア (アニメ)",
+    "gt_query": "ヒロアカ 5期",
+    "air_start": "2021-03-27",
+    "air_end": "2021-09-25",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "ijiranaide_nagatoro",
+    "anime_title_ja": "いじらないで、長瀞さん",
+    "wikipedia_page_title": "イジらないで、長瀞さん",
+    "gt_query": "長瀞さん アニメ",
+    "air_start": "2021-04-11",
+    "air_end": "2021-06-27",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "fumetsu_no_anata_e",
+    "anime_title_ja": "不滅のあなたへ",
+    "wikipedia_page_title": "不滅のあなたへ",
+    "gt_query": "不滅のあなたへ アニメ",
+    "air_start": "2021-04-12",
+    "air_end": "2021-09-27",
+    "total_episodes": 20,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "mieruko_chan",
+    "anime_title_ja": "見える子ちゃん",
+    "wikipedia_page_title": "見える子ちゃん",
+    "gt_query": "見える子ちゃん アニメ",
+    "air_start": "2021-10-03",
+    "air_end": "2021-12-19",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "blue_period",
+    "anime_title_ja": "ブルーピリオド",
+    "wikipedia_page_title": "ブルーピリオド",
+    "gt_query": "ブルーピリオド アニメ",
+    "air_start": "2021-10-01",
+    "air_end": "2021-12-17",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "komi_san",
+    "anime_title_ja": "古見さんはコミュ症です",
+    "wikipedia_page_title": "古見さんは、コミュ症です。",
+    "gt_query": "古見さん アニメ",
+    "air_start": "2021-10-07",
+    "air_end": "2021-12-29",
+    "total_episodes": 12,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "ao_ashi",
+    "anime_title_ja": "アオアシ",
+    "wikipedia_page_title": "アオアシ",
+    "gt_query": "アオアシ アニメ",
+    "air_start": "2022-04-09",
+    "air_end": "2022-09-24",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "isekai_ojisan",
+    "anime_title_ja": "異世界おじさん",
+    "wikipedia_page_title": "異世界おじさん",
+    "gt_query": "異世界おじさん アニメ",
+    "air_start": "2022-07-06",
+    "air_end": "2022-12-28",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "spy_x_family_part2",
+    "anime_title_ja": "SPY×FAMILY Part 2",
+    "wikipedia_page_title": "SPY×FAMILY (アニメ)",
+    "gt_query": "スパイファミリー Part2",
+    "air_start": "2022-10-01",
+    "air_end": "2022-12-24",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "mob_psycho_100_s3",
+    "anime_title_ja": "モブサイコ100 III",
+    "wikipedia_page_title": "モブサイコ100",
+    "gt_query": "モブサイコ100 III",
+    "air_start": "2022-10-05",
+    "air_end": "2022-12-28",
+    "total_episodes": 12,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "kage_no_jitsuryokusha",
+    "anime_title_ja": "陰の実力者になりたくて！",
+    "wikipedia_page_title": "陰の実力者になりたくて!",
+    "gt_query": "陰実 アニメ",
+    "air_start": "2022-10-05",
+    "air_end": "2023-03-22",
+    "total_episodes": 20,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "tomo_chan_wa_onnanoko",
+    "anime_title_ja": "トモちゃんは女の子！",
+    "wikipedia_page_title": "トモちゃんは女の子!",
+    "gt_query": "トモちゃん アニメ",
+    "air_start": "2023-01-05",
+    "air_end": "2023-03-23",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "vinland_saga_s2",
+    "anime_title_ja": "ヴィンランド・サガ SEASON 2",
+    "wikipedia_page_title": "ヴィンランド・サガ",
+    "gt_query": "ヴィンランドサガ Season2",
+    "air_start": "2023-01-10",
+    "air_end": "2023-07-04",
+    "total_episodes": 24,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "dr_stone_new_world",
+    "anime_title_ja": "Dr.STONE NEW WORLD",
+    "wikipedia_page_title": "Dr.STONE",
+    "gt_query": "Dr.STONE NEW WORLD",
+    "air_start": "2023-04-06",
+    "air_end": "2023-06-15",
+    "total_episodes": 11,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "mahou_tsukai_no_yome_s2",
+    "anime_title_ja": "魔法使いの嫁 SEASON 2",
+    "wikipedia_page_title": "魔法使いの嫁",
+    "gt_query": "魔法使いの嫁 Season2",
+    "air_start": "2023-04-07",
+    "air_end": "2023-09-22",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "bleach_tybw_p2",
+    "anime_title_ja": "BLEACH 千年血戦篇-訣別譚-",
+    "wikipedia_page_title": "BLEACH (アニメ)",
+    "gt_query": "ブリーチ 千年血戦篇",
+    "air_start": "2023-07-08",
+    "air_end": "2023-12-30",
+    "total_episodes": 13,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "kusuriya_no_hitorigoto",
+    "anime_title_ja": "薬屋のひとりごと",
+    "wikipedia_page_title": "薬屋のひとりごと",
+    "gt_query": "薬屋のひとりごと アニメ",
+    "air_start": "2023-10-22",
+    "air_end": "2024-03-24",
+    "total_episodes": 24,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "undead_unluck",
+    "anime_title_ja": "アンデッドアンラック",
+    "wikipedia_page_title": "アンデッドアンラック",
+    "gt_query": "アンデッドアンラック アニメ",
+    "air_start": "2023-10-07",
+    "air_end": "2024-03-30",
+    "total_episodes": 24,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "shangri_la_frontier",
+    "anime_title_ja": "シャングリラ・フロンティア",
+    "wikipedia_page_title": "シャングリラ・フロンティア",
+    "gt_query": "シャングリラフロンティア アニメ",
+    "air_start": "2023-10-01",
+    "air_end": "2024-03-24",
+    "total_episodes": 25,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "dungeon_meshi",
+    "anime_title_ja": "ダンジョン飯",
+    "wikipedia_page_title": "ダンジョン飯",
+    "gt_query": "ダンジョン飯 アニメ",
+    "air_start": "2024-01-04",
+    "air_end": "2024-06-28",
+    "total_episodes": 24,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "boku_yaba_s2",
+    "anime_title_ja": "僕の心のヤバイやつ Season 2",
+    "wikipedia_page_title": "僕の心のヤバイやつ",
+    "gt_query": "僕ヤバ Season2",
+    "air_start": "2024-01-07",
+    "air_end": "2024-03-31",
+    "total_episodes": 13,
+    "popularity_tier": "medium"
+  },
+  {
+    "anime_title": "konosuba_s3",
+    "anime_title_ja": "この素晴らしい世界に祝福を！3",
+    "wikipedia_page_title": "この素晴らしい世界に祝福を!3",
+    "gt_query": "このすば3 アニメ",
+    "air_start": "2024-04-10",
+    "air_end": "2024-06-19",
+    "total_episodes": 11,
+    "popularity_tier": "high"
+  },
+  {
+    "anime_title": "kimetsu_hashira_geiko",
+    "anime_title_ja": "鬼滅の刃 柱稽古編",
+    "wikipedia_page_title": "鬼滅の刃 柱稽古編",
+    "gt_query": "鬼滅 柱稽古編",
+    "air_start": "2024-05-12",
+    "air_end": "2024-06-30",
+    "total_episodes": 8,
+    "popularity_tier": "high"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "anime_title": "fruits_basket_2019",
+  "anime_title_ja": "フルーツバスケット（2019年）",
+  "wikipedia_page_title": "フルーツバスケット",
+  "gt_query": "フルーツバスケット 2019",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2019-04-06_to_2019-07-05",
+  "air_start": "2019-04-06",
+  "air_end": "2019-09-21",
+  "total_episodes": 25,
+  "y_1m_date": "2019-05-06",
+  "y_3m_date": "2019-07-05",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "haikyuu_s4p2",
+  "anime_title_ja": "ハイキュー!! TO THE TOP 第2クール",
+  "wikipedia_page_title": "ハイキュー!! TO THE TOP",
+  "gt_query": "ハイキュー TO THE TOP",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2020-10-03_to_2021-01-01",
+  "air_start": "2020-10-03",
+  "air_end": "2020-12-19",
+  "total_episodes": 13,
+  "y_1m_date": "2020-11-02",
+  "y_3m_date": "2021-01-01",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

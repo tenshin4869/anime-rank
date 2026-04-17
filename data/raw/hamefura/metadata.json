@@ -1,0 +1,16 @@
+{
+  "anime_title": "hamefura",
+  "anime_title_ja": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった",
+  "wikipedia_page_title": "乙女ゲームの破滅フラグしかない悪役令嬢に転生してしまった",
+  "gt_query": "はめふら アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2020-04-04_to_2020-07-03",
+  "air_start": "2020-04-04",
+  "air_end": "2020-06-27",
+  "total_episodes": 12,
+  "y_1m_date": "2020-05-04",
+  "y_3m_date": "2020-07-03",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

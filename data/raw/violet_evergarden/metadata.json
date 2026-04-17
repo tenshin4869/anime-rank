@@ -1,0 +1,16 @@
+{
+  "anime_title": "violet_evergarden",
+  "anime_title_ja": "ヴァイオレット・エヴァーガーデン",
+  "wikipedia_page_title": "ヴァイオレット・エヴァーガーデン",
+  "gt_query": "ヴァイオレット・エヴァーガーデン",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2018-01-11_to_2018-04-11",
+  "air_start": "2018-01-11",
+  "air_end": "2018-04-05",
+  "total_episodes": 13,
+  "y_3m_date": "2018-04-11",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2018-02-10"
+}

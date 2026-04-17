@@ -1,0 +1,16 @@
+{
+  "anime_title": "vinland_saga_s2",
+  "anime_title_ja": "ヴィンランド・サガ SEASON 2",
+  "wikipedia_page_title": "ヴィンランド・サガ",
+  "gt_query": "ヴィンランドサガ Season2",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-01-10_to_2023-04-10",
+  "air_start": "2023-01-10",
+  "air_end": "2023-07-04",
+  "total_episodes": 24,
+  "y_1m_date": "2023-02-09",
+  "y_3m_date": "2023-04-10",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "boku_no_kokoro",
+  "anime_title_ja": "僕の心のヤバイやつ",
+  "wikipedia_page_title": "僕の心のヤバイやつ",
+  "gt_query": "僕ヤバ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-04-02_to_2023-07-01",
+  "air_start": "2023-04-02",
+  "air_end": "2023-06-25",
+  "total_episodes": 12,
+  "y_3m_date": "2023-07-01",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2023-05-02"
+}

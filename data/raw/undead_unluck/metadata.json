@@ -1,0 +1,16 @@
+{
+  "anime_title": "undead_unluck",
+  "anime_title_ja": "アンデッドアンラック",
+  "wikipedia_page_title": "アンデッドアンラック",
+  "gt_query": "アンデッドアンラック アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-10-07_to_2024-01-05",
+  "air_start": "2023-10-07",
+  "air_end": "2024-03-30",
+  "total_episodes": 24,
+  "y_1m_date": "2023-11-06",
+  "y_3m_date": "2024-01-05",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

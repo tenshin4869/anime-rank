@@ -1,0 +1,16 @@
+{
+  "anime_title": "goblin_slayer",
+  "anime_title_ja": "ゴブリンスレイヤー",
+  "wikipedia_page_title": "ゴブリンスレイヤー",
+  "gt_query": "ゴブリンスレイヤー アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2018-10-07_to_2019-01-05",
+  "air_start": "2018-10-07",
+  "air_end": "2018-12-30",
+  "total_episodes": 12,
+  "y_1m_date": "2018-11-06",
+  "y_3m_date": "2019-01-05",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

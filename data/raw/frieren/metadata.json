@@ -1,0 +1,16 @@
+{
+  "anime_title": "frieren",
+  "anime_title_ja": "葬送のフリーレン",
+  "wikipedia_page_title": "葬送のフリーレン",
+  "gt_query": "葬送のフリーレン",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2023-09-29_to_2023-12-28",
+  "air_start": "2023-09-29",
+  "air_end": "2024-03-22",
+  "total_episodes": 28,
+  "y_3m_date": "2023-12-28",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2023-10-29"
+}

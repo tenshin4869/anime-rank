@@ -1,0 +1,16 @@
+{
+  "anime_title": "kaguya_s3",
+  "anime_title_ja": "かぐや様は告らせたい -ウルトラロマンティック-",
+  "wikipedia_page_title": "かぐや様は告らせたい〜天才たちの恋愛頭脳戦〜",
+  "gt_query": "かぐや様は告らせたい",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-04-09_to_2022-07-08",
+  "air_start": "2022-04-09",
+  "air_end": "2022-06-25",
+  "total_episodes": 13,
+  "y_3m_date": "2022-07-08",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2022-05-09"
+}

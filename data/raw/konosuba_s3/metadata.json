@@ -1,0 +1,16 @@
+{
+  "anime_title": "konosuba_s3",
+  "anime_title_ja": "この素晴らしい世界に祝福を！3",
+  "wikipedia_page_title": "この素晴らしい世界に祝福を!3",
+  "gt_query": "このすば3 アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2024-04-10_to_2024-07-09",
+  "air_start": "2024-04-10",
+  "air_end": "2024-06-19",
+  "total_episodes": 11,
+  "y_1m_date": "2024-05-10",
+  "y_3m_date": "2024-07-09",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

@@ -1,0 +1,16 @@
+{
+  "anime_title": "ao_ashi",
+  "anime_title_ja": "アオアシ",
+  "wikipedia_page_title": "アオアシ",
+  "gt_query": "アオアシ アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2022-04-09_to_2022-07-08",
+  "air_start": "2022-04-09",
+  "air_end": "2022-09-24",
+  "total_episodes": 24,
+  "y_1m_date": "2022-05-09",
+  "y_3m_date": "2022-07-08",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

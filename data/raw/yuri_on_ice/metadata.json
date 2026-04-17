@@ -1,0 +1,16 @@
+{
+  "anime_title": "yuri_on_ice",
+  "anime_title_ja": "ユーリ!!! on ICE",
+  "wikipedia_page_title": "ユーリ!!! on ICE",
+  "gt_query": "ユーリオンアイス アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2016-10-06_to_2017-01-04",
+  "air_start": "2016-10-06",
+  "air_end": "2016-12-22",
+  "total_episodes": 12,
+  "y_1m_date": "2016-11-05",
+  "y_3m_date": "2017-01-04",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}

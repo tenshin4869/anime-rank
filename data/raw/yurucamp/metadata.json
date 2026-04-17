@@ -1,0 +1,16 @@
+{
+  "anime_title": "yurucamp",
+  "anime_title_ja": "ゆるキャン△",
+  "wikipedia_page_title": "ゆるキャン△",
+  "gt_query": "ゆるキャン",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2018-01-04_to_2018-04-04",
+  "air_start": "2018-01-04",
+  "air_end": "2018-03-29",
+  "total_episodes": 12,
+  "y_3m_date": "2018-04-04",
+  "data_collected_at": "2026-04-16",
+  "wikipedia_page_exists": true,
+  "notes": "",
+  "y_1m_date": "2018-02-03"
+}

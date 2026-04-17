@@ -1,0 +1,16 @@
+{
+  "anime_title": "deca_dence",
+  "anime_title_ja": "デカダンス",
+  "wikipedia_page_title": "デカダンス",
+  "gt_query": "デカダンス アニメ",
+  "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
+  "gt_request_period": "2020-07-09_to_2020-10-07",
+  "air_start": "2020-07-09",
+  "air_end": "2020-09-24",
+  "total_episodes": 12,
+  "y_1m_date": "2020-08-08",
+  "y_3m_date": "2020-10-07",
+  "data_collected_at": "2026-04-17",
+  "wikipedia_page_exists": true,
+  "notes": ""
+}
