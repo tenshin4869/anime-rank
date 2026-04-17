@@ -1,0 +1,185 @@
+const state = {
+    data: window.VIEWER_DATA || [],
+    filter: 'all',
+    selectedId: null,
+    chartInstance: null
+};
+
+function init() {
+    // Sort logic: Absolute residual descending so most deviated are at top
+    state.data.sort((a, b) => Math.abs(b.residual) - Math.abs(a.residual));
+    document.getElementById('stat-total').textContent = state.data.length;
+    
+    // Bind filters
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            e.target.classList.add('active');
+            state.filter = e.target.getAttribute('data-filter');
+            renderSidebar();
+        });
+    });
+
+    renderSidebar();
+}
+
+function getPatternGroup(pattern) {
+    if (pattern.includes('Pattern A')) return 'A';
+    if (pattern.includes('Pattern B')) return 'B';
+    return 'Normal';
+}
+
+function renderSidebar() {
+    const list = document.getElementById('anime-list');
+    list.innerHTML = '';
+    
+    const filtered = state.data.filter(item => {
+        if (state.filter === 'all') return true;
+        return item.pattern.includes(state.filter);
+    });
+
+    filtered.forEach(item => {
+        const li = document.createElement('li');
+        li.className = `anime-item ${state.selectedId === item.id ? 'selected' : ''}`;
+        
+        const group = getPatternGroup(item.pattern);
+        let resText = item.residual > 0 ? `+${item.residual.toFixed(1)}` : item.residual.toFixed(1);
+
+        li.innerHTML = `
+            <div class="anime-item-title">${item.title_ja}</div>
+            <div class="anime-item-meta">
+                <span class="color-${group}">${item.pattern.split(' ')[0]}</span>
+                <span class="meta-residual color-${group}">残差: ${resText}</span>
+            </div>
+        `;
+        li.addEventListener('click', () => selectAnime(item.id));
+        list.appendChild(li);
+    });
+}
+
+function selectAnime(id) {
+    state.selectedId = id;
+    renderSidebar(); // Update selection highlight
+    
+    const item = state.data.find(d => d.id === id);
+    if (!item) return;
+
+    document.getElementById('welcome-state').classList.add('hidden');
+    document.getElementById('detail-state').classList.remove('hidden');
+
+    // Update Header
+    document.getElementById('anime-title').textContent = item.title_ja;
+    document.getElementById('anime-dates').textContent = `Air Start: ${item.air_start}`;
+    
+    const group = getPatternGroup(item.pattern);
+    const badge = document.getElementById('anime-pattern');
+    badge.textContent = item.pattern;
+    badge.className = `badge badge-${group}`;
+
+    // Update Metrics
+    document.getElementById('val-pred').textContent = item.y_pred.toFixed(1);
+    document.getElementById('val-actual').textContent = item.y_3m_gt.toFixed(1);
+    
+    let resText = item.residual > 0 ? `+${item.residual.toFixed(1)}` : item.residual.toFixed(1);
+    document.getElementById('val-residual').textContent = resText;
+    
+    const metricCard = document.getElementById('val-residual').closest('.metric-card');
+    metricCard.style.backgroundColor = group === 'A' ? '#ef4444' : (group === 'B' ? '#10b981' : '#64748b');
+    metricCard.style.borderColor = metricCard.style.backgroundColor;
+
+    drawChart(item);
+}
+
+function drawChart(item) {
+    const ctx = document.getElementById('mainChart').getContext('2d');
+    
+    if (state.chartInstance) {
+        state.chartInstance.destroy();
+    }
+
+    const labels = item.timeseries.map(d => `Day ${d.day_index}`);
+    const dataGT = item.timeseries.map(d => d.gt);
+    const dataPV = item.timeseries.map(d => d.pv);
+
+    state.chartInstance = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'Google Trends Score',
+                    data: dataGT,
+                    borderColor: '#f59e0b',
+                    backgroundColor: 'rgba(245, 158, 11, 0.1)',
+                    yAxisID: 'ygt',
+                    tension: 0.4,
+                    borderWidth: 2,
+                    pointRadius: 0,
+                    pointHitRadius: 10,
+                    fill: true
+                },
+                {
+                    label: 'Wikipedia PV',
+                    data: dataPV,
+                    borderColor: '#3b82f6',
+                    backgroundColor: 'transparent',
+                    yAxisID: 'ypv',
+                    tension: 0.4,
+                    borderWidth: 2,
+                    pointRadius: 0,
+                    pointHitRadius: 10
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            interaction: { mode: 'index', intersect: false },
+            plugins: {
+                tooltip: { backgroundColor: 'rgba(15, 23, 42, 0.9)' },
+                annotation: {
+                    annotations: {
+                        line1: {
+                            type: 'line',
+                            xMin: 21, xMax: 21,
+                            borderColor: '#94a3b8',
+                            borderWidth: 2,
+                            borderDash: [4, 4],
+                            label: { content: 'End of Input (Day 21)', display: true, position: 'start', backgroundColor: '#94a3b8', font: {size: 10} }
+                        },
+                        line2: {
+                            type: 'line',
+                            xMin: 90, xMax: 90,
+                            borderColor: '#ef4444',
+                            borderWidth: 2,
+                            borderDash: [4, 4],
+                            label: { content: '3M Target (Day 90)', display: true, position: 'start', backgroundColor: '#ef4444', font: {size: 10} }
+                        }
+                    }
+                }
+            },
+            scales: {
+                x: {
+                    grid: { display: false },
+                    ticks: { maxTicksLimit: 15 }
+                },
+                ygt: {
+                    type: 'linear',
+                    position: 'right',
+                    min: 0, max: 100,
+                    title: { display: true, text: 'Google Trends' },
+                    grid: { display: false }
+                },
+                ypv: {
+                    type: 'linear',
+                    position: 'left',
+                    beginAtZero: true,
+                    title: { display: true, text: 'Wikipedia PV' },
+                    grid: { color: '#f1f5f9' }
+                }
+            }
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', init);
