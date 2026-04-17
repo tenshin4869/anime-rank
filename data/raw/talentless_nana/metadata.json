@@ -4,7 +4,7 @@
   "wikipedia_page_title": "無能なナナ",
   "gt_query": "無能なナナ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2020-10-04_to_2021-01-02",
+  "gt_request_period": "2020-10-04_to_2021-03-03",
   "air_start": "2020-10-04",
   "air_end": "2020-12-27",
   "total_episodes": 13,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2020-11-03"
+  "y_1m_date": "2020-11-03",
+  "y_2m_date": "2020-12-03",
+  "y_4m_date": "2021-02-01",
+  "y_5m_date": "2021-03-03"
 }

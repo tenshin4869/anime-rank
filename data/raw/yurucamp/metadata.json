@@ -4,7 +4,7 @@
   "wikipedia_page_title": "ゆるキャン△",
   "gt_query": "ゆるキャン",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2018-01-04_to_2018-04-04",
+  "gt_request_period": "2018-01-04_to_2018-06-03",
   "air_start": "2018-01-04",
   "air_end": "2018-03-29",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2018-02-03"
+  "y_1m_date": "2018-02-03",
+  "y_2m_date": "2018-03-05",
+  "y_4m_date": "2018-05-04",
+  "y_5m_date": "2018-06-03"
 }

@@ -36,10 +36,13 @@ from config import (
 
 logger = setup_logging("analyze_results")
 
-TARGETS = ["Y_1m_gt", "Y_3m_gt"]
+TARGETS = ["Y_1m_gt", "Y_2m_gt", "Y_3m_gt", "Y_4m_gt", "Y_5m_gt"]
 TARGET_LABELS = {
     "Y_1m_gt": "Y_1m\n（放送開始1ヶ月後）",
+    "Y_2m_gt": "Y_2m\n（放送開始2ヶ月後）",
     "Y_3m_gt": "Y_3m\n（放送開始3ヶ月後）",
+    "Y_4m_gt": "Y_4m\n（放送開始4ヶ月後）",
+    "Y_5m_gt": "Y_5m\n（放送開始5ヶ月後）",
 }
 
 FEATURE_COLS = [
@@ -93,7 +96,7 @@ def plot_metric_summary():
     df = pd.read_csv(cv_path)
     metrics = ["RMSE", "Spearman_rho", "R2"]
     model_order = ["Ridge", "RandomForest", "XGBoost"]
-    target_order = ["Y_1m_gt", "Y_3m_gt"]
+    target_order = ["Y_1m_gt", "Y_2m_gt", "Y_3m_gt", "Y_4m_gt", "Y_5m_gt"]
 
     fig, axes = plt.subplots(1, 3, figsize=(16, 5))
     fig.suptitle("5-fold CV 精度サマリ（Phase 1 ベースライン）", fontsize=14, fontweight="bold")
@@ -123,7 +126,7 @@ def plot_metric_summary():
 # ─── 2. 特徴量重要度（RF MDI） ──────────────────────────────────────────────
 
 def plot_feature_importance(df: pd.DataFrame):
-    fig, axes = plt.subplots(1, 2, figsize=(12, 5))
+    fig, axes = plt.subplots(1, 5, figsize=(25, 5))
     fig.suptitle("Random Forest 特徴量重要度（MDI）", fontsize=14, fontweight="bold")
 
     for ax, target in zip(axes, TARGETS):
@@ -307,7 +310,9 @@ def plot_accuracy_by_horizon():
         return
 
     df = pd.read_csv(cv_path)
-    target_short = {"Y_1m_gt": "Y_1m（+30日）", "Y_3m_gt": "Y_3m（+90日）"}
+    target_short = {"Y_1m_gt": "Y_1m (+30)", "Y_2m_gt": "Y_2m (+60)", 
+                    "Y_3m_gt": "Y_3m (+90)", "Y_4m_gt": "Y_4m (+120)", 
+                    "Y_5m_gt": "Y_5m (+150)"}
 
     fig, axes = plt.subplots(1, 2, figsize=(12, 5))
     fig.suptitle("予測時点別精度（5-fold CV）", fontsize=13, fontweight="bold")
@@ -364,7 +369,7 @@ def plot_correlation_heatmap(df: pd.DataFrame):
 # ─── 7. GT スコア分布（人気階層別） ────────────────────────────────────────
 
 def plot_gt_distribution(df: pd.DataFrame):
-    fig, axes = plt.subplots(1, 2, figsize=(10, 5))
+    fig, axes = plt.subplots(1, 5, figsize=(25, 5))
     fig.suptitle("GT スコア分布（人気階層別）", fontsize=13, fontweight="bold")
     palette = {"high": "#D62728", "medium": "#1F77B4", "low": "#2CA02C"}
 

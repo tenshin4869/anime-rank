@@ -4,7 +4,7 @@
   "wikipedia_page_title": "薬屋のひとりごと",
   "gt_query": "薬屋のひとりごと アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2023-10-22_to_2024-01-20",
+  "gt_request_period": "2023-10-22_to_2024-03-20",
   "air_start": "2023-10-22",
   "air_end": "2024-03-24",
   "total_episodes": 24,
@@ -12,5 +12,8 @@
   "y_3m_date": "2024-01-20",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2023-12-21",
+  "y_4m_date": "2024-02-19",
+  "y_5m_date": "2024-03-20"
 }

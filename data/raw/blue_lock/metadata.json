@@ -4,7 +4,7 @@
   "wikipedia_page_title": "ブルーロック",
   "gt_query": "ブルーロック",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2022-10-08_to_2023-01-06",
+  "gt_request_period": "2022-10-08_to_2023-03-07",
   "air_start": "2022-10-08",
   "air_end": "2023-03-25",
   "total_episodes": 24,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2022-11-07"
+  "y_1m_date": "2022-11-07",
+  "y_2m_date": "2022-12-07",
+  "y_4m_date": "2023-02-05",
+  "y_5m_date": "2023-03-07"
 }

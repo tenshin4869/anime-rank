@@ -31,9 +31,14 @@ from config import (
 
 logger = setup_logging("train_models")
 
-TARGETS     = ["Y_1m_gt", "Y_3m_gt"]
-TARGET_NAMES = {"Y_1m_gt": "Y_1m（放送開始1ヶ月後）",
-                "Y_3m_gt": "Y_3m（放送開始3ヶ月後）"}
+TARGETS     = ["Y_1m_gt", "Y_2m_gt", "Y_3m_gt", "Y_4m_gt", "Y_5m_gt"]
+TARGET_NAMES = {
+    "Y_1m_gt": "Y_1m（放送開始1ヶ月後）",
+    "Y_2m_gt": "Y_2m（放送開始2ヶ月後）",
+    "Y_3m_gt": "Y_3m（放送開始3ヶ月後）",
+    "Y_4m_gt": "Y_4m（放送開始4ヶ月後）",
+    "Y_5m_gt": "Y_5m（放送開始5ヶ月後）",
+}
 
 FEATURE_COLS = [
     "pv_w1",     "pv_w2",     "pv_w3",

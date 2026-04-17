@@ -4,7 +4,7 @@
   "wikipedia_page_title": "サマータイムレンダ",
   "gt_query": "サマータイムレンダ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2022-04-07_to_2022-07-06",
+  "gt_request_period": "2022-04-07_to_2022-09-04",
   "air_start": "2022-04-07",
   "air_end": "2022-09-29",
   "total_episodes": 25,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2022-05-07"
+  "y_1m_date": "2022-05-07",
+  "y_2m_date": "2022-06-06",
+  "y_4m_date": "2022-08-05",
+  "y_5m_date": "2022-09-04"
 }

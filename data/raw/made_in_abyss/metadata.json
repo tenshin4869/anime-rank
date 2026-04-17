@@ -4,7 +4,7 @@
   "wikipedia_page_title": "メイドインアビス",
   "gt_query": "メイドインアビス アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2017-07-07_to_2017-10-05",
+  "gt_request_period": "2017-07-07_to_2017-12-04",
   "air_start": "2017-07-07",
   "air_end": "2017-09-29",
   "total_episodes": 13,
@@ -12,5 +12,8 @@
   "y_3m_date": "2017-10-05",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2017-09-05",
+  "y_4m_date": "2017-11-04",
+  "y_5m_date": "2017-12-04"
 }

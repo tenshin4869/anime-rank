@@ -4,7 +4,7 @@
   "wikipedia_page_title": "慎重勇者〜この勇者が俺TUEEEくせに慎重すぎる〜",
   "gt_query": "慎重勇者 アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2019-10-02_to_2019-12-31",
+  "gt_request_period": "2019-10-02_to_2020-02-29",
   "air_start": "2019-10-02",
   "air_end": "2019-12-25",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "y_3m_date": "2019-12-31",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2019-12-01",
+  "y_4m_date": "2020-01-30",
+  "y_5m_date": "2020-02-29"
 }

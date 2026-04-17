@@ -12,8 +12,10 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 import sys
-sys.path.insert(0, str(Path(__file__).parent))
-from config import RAW_DIR, Y_1M_OFFSET_DAYS, Y_3M_OFFSET_DAYS, setup_logging
+from config import (
+    RAW_DIR, Y_1M_OFFSET_DAYS, Y_2M_OFFSET_DAYS, Y_3M_OFFSET_DAYS,
+    Y_4M_OFFSET_DAYS, Y_5M_OFFSET_DAYS, setup_logging
+)
 
 logger = setup_logging("update_metadata")
 
@@ -36,7 +38,10 @@ for anime_dir in sorted(RAW_DIR.iterdir()):
 
     start_dt = datetime.strptime(air_start, "%Y-%m-%d")
     y_1m_date = (start_dt + timedelta(days=Y_1M_OFFSET_DAYS)).strftime("%Y-%m-%d")
+    y_2m_date = (start_dt + timedelta(days=Y_2M_OFFSET_DAYS)).strftime("%Y-%m-%d")
     y_3m_date = (start_dt + timedelta(days=Y_3M_OFFSET_DAYS)).strftime("%Y-%m-%d")
+    y_4m_date = (start_dt + timedelta(days=Y_4M_OFFSET_DAYS)).strftime("%Y-%m-%d")
+    y_5m_date = (start_dt + timedelta(days=Y_5M_OFFSET_DAYS)).strftime("%Y-%m-%d")
 
     # 旧キーを削除
     meta.pop("y_mid_date", None)
@@ -44,8 +49,11 @@ for anime_dir in sorted(RAW_DIR.iterdir()):
 
     # 新キーを設定
     meta["y_1m_date"] = y_1m_date
+    meta["y_2m_date"] = y_2m_date
     meta["y_3m_date"] = y_3m_date
-    meta["gt_request_period"] = f"{air_start}_to_{y_3m_date}"
+    meta["y_4m_date"] = y_4m_date
+    meta["y_5m_date"] = y_5m_date
+    meta["gt_request_period"] = f"{air_start}_to_{y_5m_date}"
 
     with open(meta_file, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)

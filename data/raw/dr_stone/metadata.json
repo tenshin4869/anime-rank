@@ -4,7 +4,7 @@
   "wikipedia_page_title": "Dr.STONE",
   "gt_query": "Dr.STONE",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2019-07-05_to_2019-10-03",
+  "gt_request_period": "2019-07-05_to_2019-12-02",
   "air_start": "2019-07-05",
   "air_end": "2019-12-13",
   "total_episodes": 24,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2019-08-04"
+  "y_1m_date": "2019-08-04",
+  "y_2m_date": "2019-09-03",
+  "y_4m_date": "2019-11-02",
+  "y_5m_date": "2019-12-02"
 }

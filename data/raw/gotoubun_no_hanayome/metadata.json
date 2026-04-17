@@ -4,7 +4,7 @@
   "wikipedia_page_title": "五等分の花嫁",
   "gt_query": "五等分の花嫁",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2019-01-10_to_2019-04-10",
+  "gt_request_period": "2019-01-10_to_2019-06-09",
   "air_start": "2019-01-10",
   "air_end": "2019-03-28",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2019-02-09"
+  "y_1m_date": "2019-02-09",
+  "y_2m_date": "2019-03-11",
+  "y_4m_date": "2019-05-10",
+  "y_5m_date": "2019-06-09"
 }

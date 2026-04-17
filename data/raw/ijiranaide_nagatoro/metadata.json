@@ -4,7 +4,7 @@
   "wikipedia_page_title": "イジらないで、長瀞さん",
   "gt_query": "長瀞さん アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2021-04-11_to_2021-07-10",
+  "gt_request_period": "2021-04-11_to_2021-09-08",
   "air_start": "2021-04-11",
   "air_end": "2021-06-27",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "y_3m_date": "2021-07-10",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2021-06-10",
+  "y_4m_date": "2021-08-09",
+  "y_5m_date": "2021-09-08"
 }

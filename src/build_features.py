@@ -30,18 +30,24 @@ logger = setup_logging("build_features")
 
 # ─── phase ラベルを付ける ────────────────────────────────────────────────────
 
-def assign_phase(date_str: str, air_start: str, y_1m_date: str,
-                 y_3m_date: str, input_end: str) -> Optional[str]:
+def assign_phase(date_str: str, air_start: str, y_1m_date: str, y_2m_date: str,
+                 y_3m_date: str, y_4m_date: str, y_5m_date: str, input_end: str) -> Optional[str]:
     """
     各日付を phase に対応させる。
-    input 範囲外 & 2つの予測時点以外は None（ファイルに含めない）。
+    input 範囲外 & 予測時点以外は None（ファイルに含めない）。
     """
     if air_start <= date_str <= input_end:
         return "input"
     if date_str == y_1m_date:
         return "Y_1m"
+    if date_str == y_2m_date:
+        return "Y_2m"
     if date_str == y_3m_date:
         return "Y_3m"
+    if date_str == y_4m_date:
+        return "Y_4m"
+    if date_str == y_5m_date:
+        return "Y_5m"
     return None
 
 
@@ -83,7 +89,10 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
 
     air_start   = meta["air_start"]
     y_1m_date   = meta["y_1m_date"]
+    y_2m_date   = meta["y_2m_date"]
     y_3m_date   = meta["y_3m_date"]
+    y_4m_date   = meta["y_4m_date"]
+    y_5m_date   = meta["y_5m_date"]
     air_end     = meta["air_end"]
 
     input_end = (datetime.strptime(air_start, "%Y-%m-%d") +
@@ -110,8 +119,8 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
         logger.warning("[WARN] %s — google_trends_daily.csv なし（GT=NaN 扱い）", anime_title)
 
     # --- 日次データ構築 ---
-    # 入力期間 + 2 予測時点のみ抽出
-    target_dates = {y_1m_date, y_3m_date}
+    # 入力期間 + 予測時点のみ抽出
+    target_dates = {y_1m_date, y_2m_date, y_3m_date, y_4m_date, y_5m_date}
     air_start_dt = datetime.strptime(air_start, "%Y-%m-%d")
     input_dates = set(
         (air_start_dt + timedelta(days=i)).strftime("%Y-%m-%d")
@@ -126,8 +135,8 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
                      air_start_dt).days + 1
         week_index = (day_index - 1) // 7 + 1
 
-        phase = assign_phase(date_str, air_start, y_1m_date,
-                             y_3m_date, input_end)
+        phase = assign_phase(date_str, air_start, y_1m_date, y_2m_date,
+                             y_3m_date, y_4m_date, y_5m_date, input_end)
         if phase is None:
             continue
 
@@ -137,7 +146,7 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
             day_gt = gt_df[gt_df["date"] == date_str]
             if not day_gt.empty:
                 gt_score = float(day_gt.iloc[0]["gt_score"])
-            elif phase in ("Y_1m", "Y_3m"):
+            elif phase in ("Y_1m", "Y_2m", "Y_3m", "Y_4m", "Y_5m"):
                 # ターゲット日は最近傍（GT は週次の場合がある）
                 gt_score = find_nearest_gt(gt_df, date_str)
 
@@ -223,11 +232,15 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
         if not target_row.empty and not pd.isna(target_row.iloc[0]["gt_score"]):
             return float(target_row.iloc[0]["gt_score"])
         # 日次ファイルに直接ない場合は最近傍
-        date_map = {"Y_1m": y_1m_date, "Y_3m": y_3m_date}
+        date_map = {"Y_1m": y_1m_date, "Y_2m": y_2m_date, "Y_3m": y_3m_date,
+                    "Y_4m": y_4m_date, "Y_5m": y_5m_date}
         return find_nearest_gt(gt_df, date_map[phase_label]) or np.nan
 
     master_row["Y_1m_gt"] = _get_gt_target("Y_1m")
+    master_row["Y_2m_gt"] = _get_gt_target("Y_2m")
     master_row["Y_3m_gt"] = _get_gt_target("Y_3m")
+    master_row["Y_4m_gt"] = _get_gt_target("Y_4m")
+    master_row["Y_5m_gt"] = _get_gt_target("Y_5m")
 
     # targets.csv 用の追加情報
     targets_row = {
@@ -236,15 +249,21 @@ def build_one(anime_title: str, force: bool = False) -> Optional[dict]:
         "air_end":     air_end,
         "Y_1m_date":   y_1m_date,
         "Y_1m_gt":     master_row["Y_1m_gt"],
+        "Y_2m_date":   y_2m_date,
+        "Y_2m_gt":     master_row["Y_2m_gt"],
         "Y_3m_date":   y_3m_date,
         "Y_3m_gt":     master_row["Y_3m_gt"],
+        "Y_4m_date":   y_4m_date,
+        "Y_4m_gt":     master_row["Y_4m_gt"],
+        "Y_5m_date":   y_5m_date,
+        "Y_5m_gt":     master_row["Y_5m_gt"],
     }
 
-    logger.info("✓ %s（rows=%d, Y_1m=%.1f, Y_3m=%.1f）",
+    logger.info("✓ %s（rows=%d, Y_1m=%.1f, Y_5m=%.1f）",
                 anime_title,
                 len(daily_df),
                 master_row["Y_1m_gt"] or 0,
-                master_row["Y_3m_gt"] or 0)
+                master_row["Y_5m_gt"] or 0)
 
     return {"master": master_row, "targets": targets_row}
 
@@ -281,7 +300,7 @@ def main():
             "gt_w1",     "gt_w2",     "gt_w3",
             "edit_w1",   "edit_w2",   "edit_w3",
             "editor_w1", "editor_w2", "editor_w3",
-            "Y_1m_gt",   "Y_3m_gt"]
+            "Y_1m_gt", "Y_2m_gt", "Y_3m_gt", "Y_4m_gt", "Y_5m_gt"]
     master_df = master_df.reindex(columns=cols)
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     master_path = PROCESSED_DIR / "master.csv"
@@ -296,7 +315,7 @@ def main():
     logger.info("targets.csv 保存: %s", targets_path)
 
     # 有効行の確認
-    for col in ["Y_1m_gt", "Y_3m_gt"]:
+    for col in ["Y_1m_gt", "Y_2m_gt", "Y_3m_gt", "Y_4m_gt", "Y_5m_gt"]:
         valid = master_df[col].notna().sum()
         logger.info("  %s: 有効=%d / 全=%d", col, valid, len(master_df))
 

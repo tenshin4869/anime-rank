@@ -4,7 +4,7 @@
   "wikipedia_page_title": "約束のネバーランド",
   "gt_query": "約束のネバーランド",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2019-01-11_to_2019-04-11",
+  "gt_request_period": "2019-01-11_to_2019-06-10",
   "air_start": "2019-01-11",
   "air_end": "2019-03-29",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2019-02-10"
+  "y_1m_date": "2019-02-10",
+  "y_2m_date": "2019-03-12",
+  "y_4m_date": "2019-05-11",
+  "y_5m_date": "2019-06-10"
 }

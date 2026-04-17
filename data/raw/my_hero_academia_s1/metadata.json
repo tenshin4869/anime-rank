@@ -4,7 +4,7 @@
   "wikipedia_page_title": "僕のヒーローアカデミア",
   "gt_query": "ヒロアカ アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2016-04-03_to_2016-07-02",
+  "gt_request_period": "2016-04-03_to_2016-08-31",
   "air_start": "2016-04-03",
   "air_end": "2016-06-26",
   "total_episodes": 13,
@@ -12,5 +12,8 @@
   "y_3m_date": "2016-07-02",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2016-06-02",
+  "y_4m_date": "2016-08-01",
+  "y_5m_date": "2016-08-31"
 }

@@ -4,7 +4,7 @@
   "wikipedia_page_title": "トモちゃんは女の子!",
   "gt_query": "トモちゃん アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2023-01-05_to_2023-04-05",
+  "gt_request_period": "2023-01-05_to_2023-06-04",
   "air_start": "2023-01-05",
   "air_end": "2023-03-23",
   "total_episodes": 13,
@@ -12,5 +12,8 @@
   "y_3m_date": "2023-04-05",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2023-03-06",
+  "y_4m_date": "2023-05-05",
+  "y_5m_date": "2023-06-04"
 }

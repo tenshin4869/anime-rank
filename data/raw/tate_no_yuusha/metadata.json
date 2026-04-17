@@ -4,7 +4,7 @@
   "wikipedia_page_title": "盾の勇者の成り上がり",
   "gt_query": "盾の勇者 アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2019-01-09_to_2019-04-09",
+  "gt_request_period": "2019-01-09_to_2019-06-08",
   "air_start": "2019-01-09",
   "air_end": "2019-06-26",
   "total_episodes": 25,
@@ -12,5 +12,8 @@
   "y_3m_date": "2019-04-09",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2019-03-10",
+  "y_4m_date": "2019-05-09",
+  "y_5m_date": "2019-06-08"
 }

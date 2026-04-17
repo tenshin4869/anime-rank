@@ -4,7 +4,7 @@
   "wikipedia_page_title": "進撃の巨人 (アニメ)",
   "gt_query": "進撃の巨人 3期",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2018-07-23_to_2018-10-21",
+  "gt_request_period": "2018-07-23_to_2018-12-20",
   "air_start": "2018-07-23",
   "air_end": "2018-10-15",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "y_3m_date": "2018-10-21",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2018-09-21",
+  "y_4m_date": "2018-11-20",
+  "y_5m_date": "2018-12-20"
 }

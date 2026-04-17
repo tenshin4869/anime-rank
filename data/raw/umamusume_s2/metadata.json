@@ -4,7 +4,7 @@
   "wikipedia_page_title": "ウマ娘 プリティーダービー",
   "gt_query": "ウマ娘",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2021-02-07_to_2021-05-08",
+  "gt_request_period": "2021-02-07_to_2021-07-07",
   "air_start": "2021-02-07",
   "air_end": "2021-06-27",
   "total_episodes": 13,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2021-03-09"
+  "y_1m_date": "2021-03-09",
+  "y_2m_date": "2021-04-08",
+  "y_4m_date": "2021-06-07",
+  "y_5m_date": "2021-07-07"
 }

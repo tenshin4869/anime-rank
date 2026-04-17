@@ -4,7 +4,7 @@
   "wikipedia_page_title": "この素晴らしい世界に祝福を!",
   "gt_query": "このすば アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2016-01-14_to_2016-04-13",
+  "gt_request_period": "2016-01-14_to_2016-06-12",
   "air_start": "2016-01-14",
   "air_end": "2016-03-30",
   "total_episodes": 10,
@@ -12,5 +12,8 @@
   "y_3m_date": "2016-04-13",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2016-03-14",
+  "y_4m_date": "2016-05-13",
+  "y_5m_date": "2016-06-12"
 }

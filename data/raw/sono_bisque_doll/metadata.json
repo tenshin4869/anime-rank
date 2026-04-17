@@ -4,7 +4,7 @@
   "wikipedia_page_title": "その着せ替え人形は恋をする",
   "gt_query": "着せ恋",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2022-01-09_to_2022-04-09",
+  "gt_request_period": "2022-01-09_to_2022-06-08",
   "air_start": "2022-01-09",
   "air_end": "2022-03-27",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2022-02-08"
+  "y_1m_date": "2022-02-08",
+  "y_2m_date": "2022-03-10",
+  "y_4m_date": "2022-05-09",
+  "y_5m_date": "2022-06-08"
 }

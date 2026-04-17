@@ -4,7 +4,7 @@
   "wikipedia_page_title": "映像研には手を出すな!",
   "gt_query": "映像研 アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2020-01-05_to_2020-04-04",
+  "gt_request_period": "2020-01-05_to_2020-06-03",
   "air_start": "2020-01-05",
   "air_end": "2020-03-22",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "y_3m_date": "2020-04-04",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2020-03-05",
+  "y_4m_date": "2020-05-04",
+  "y_5m_date": "2020-06-03"
 }

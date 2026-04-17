@@ -4,7 +4,7 @@
   "wikipedia_page_title": "僕のヒーローアカデミア (アニメ)",
   "gt_query": "ヒロアカ 5期",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2021-03-27_to_2021-06-25",
+  "gt_request_period": "2021-03-27_to_2021-08-24",
   "air_start": "2021-03-27",
   "air_end": "2021-09-25",
   "total_episodes": 25,
@@ -12,5 +12,8 @@
   "y_3m_date": "2021-06-25",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2021-05-26",
+  "y_4m_date": "2021-07-25",
+  "y_5m_date": "2021-08-24"
 }

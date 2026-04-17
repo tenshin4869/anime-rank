@@ -66,26 +66,26 @@ def collect_one(anime: dict, pytrends: TrendReq, force: bool = False) -> bool:
         logger.info("[SKIP] %s — GT データ既存。--force で上書き可能", title)
         return True
 
-    # metadata.json から y_3m_date を読む（Wikipedia収集済み前提）
+    # metadata.json から y_5m_date を読む（Wikipedia収集済み前提）
     if meta_file.exists():
         with open(meta_file, encoding="utf-8") as f:
             meta = json.load(f)
-        y_3m_date = meta.get("y_3m_date")
-        if not y_3m_date:
-            logger.warning("  metadata.json に y_3m_date がない: %s", title)
+        y_5m_date = meta.get("y_5m_date")
+        if not y_5m_date:
+            logger.warning("  metadata.json に y_5m_date がない: %s", title)
             return False
     else:
-        # metadata がなければ air_start + 90 日で推定
+        # metadata がなければ air_start + 150 日で推定
         from datetime import datetime, timedelta
-        y_3m_date = (datetime.strptime(air_start, "%Y-%m-%d") +
-                     timedelta(days=90)).strftime("%Y-%m-%d")
-        logger.warning("  metadata.json なし。y_3m_date を推定: %s", y_3m_date)
+        y_5m_date = (datetime.strptime(air_start, "%Y-%m-%d") +
+                     timedelta(days=150)).strftime("%Y-%m-%d")
+        logger.warning("  metadata.json なし。y_5m_date を推定: %s", y_5m_date)
 
-    logger.info("▶ %s（クエリ: %s, 期間: %s〜%s）", title, gt_query, air_start, y_3m_date)
+    logger.info("▶ %s（クエリ: %s, 期間: %s〜%s）", title, gt_query, air_start, y_5m_date)
 
     for attempt in range(1, RETRY_COUNT + 1):
         try:
-            df = fetch_trends(gt_query, air_start, y_3m_date, pytrends)
+            df = fetch_trends(gt_query, air_start, y_5m_date, pytrends)
             if df.empty:
                 logger.warning("  [SKIP] %s — GT スコアが空", title)
                 return False
@@ -96,7 +96,7 @@ def collect_one(anime: dict, pytrends: TrendReq, force: bool = False) -> bool:
             if meta_file.exists():
                 with open(meta_file, encoding="utf-8") as f:
                     meta = json.load(f)
-                meta["gt_request_period"] = f"{air_start}_to_{y_3m_date}"
+                meta["gt_request_period"] = f"{air_start}_to_{y_5m_date}"
                 with open(meta_file, "w", encoding="utf-8") as f:
                     json.dump(meta, f, ensure_ascii=False, indent=2)
             return True

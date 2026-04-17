@@ -4,7 +4,7 @@
   "wikipedia_page_title": "ヴィンランド・サガ",
   "gt_query": "ヴィンランドサガ Season2",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2023-01-10_to_2023-04-10",
+  "gt_request_period": "2023-01-10_to_2023-06-09",
   "air_start": "2023-01-10",
   "air_end": "2023-07-04",
   "total_episodes": 24,
@@ -12,5 +12,8 @@
   "y_3m_date": "2023-04-10",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2023-03-11",
+  "y_4m_date": "2023-05-10",
+  "y_5m_date": "2023-06-09"
 }

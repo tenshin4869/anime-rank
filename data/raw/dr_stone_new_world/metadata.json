@@ -4,7 +4,7 @@
   "wikipedia_page_title": "Dr.STONE",
   "gt_query": "Dr.STONE NEW WORLD",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2023-04-06_to_2023-07-05",
+  "gt_request_period": "2023-04-06_to_2023-09-03",
   "air_start": "2023-04-06",
   "air_end": "2023-06-15",
   "total_episodes": 11,
@@ -12,5 +12,8 @@
   "y_3m_date": "2023-07-05",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2023-06-05",
+  "y_4m_date": "2023-08-04",
+  "y_5m_date": "2023-09-03"
 }

@@ -4,7 +4,7 @@
   "wikipedia_page_title": "SK∞ エスケーエイト",
   "gt_query": "SK∞",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2021-01-10_to_2021-04-10",
+  "gt_request_period": "2021-01-10_to_2021-06-09",
   "air_start": "2021-01-10",
   "air_end": "2021-04-04",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2021-02-09"
+  "y_1m_date": "2021-02-09",
+  "y_2m_date": "2021-03-11",
+  "y_4m_date": "2021-05-10",
+  "y_5m_date": "2021-06-09"
 }

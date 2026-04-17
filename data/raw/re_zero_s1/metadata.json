@@ -4,7 +4,7 @@
   "wikipedia_page_title": "Re:ゼロから始める異世界生活",
   "gt_query": "リゼロ アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2016-04-04_to_2016-07-03",
+  "gt_request_period": "2016-04-04_to_2016-09-01",
   "air_start": "2016-04-04",
   "air_end": "2016-09-19",
   "total_episodes": 25,
@@ -12,5 +12,8 @@
   "y_3m_date": "2016-07-03",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2016-06-03",
+  "y_4m_date": "2016-08-02",
+  "y_5m_date": "2016-09-01"
 }

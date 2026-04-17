@@ -4,7 +4,7 @@
   "wikipedia_page_title": "神之塔 -Tower of God-",
   "gt_query": "タワーオブゴッド アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2020-04-02_to_2020-07-01",
+  "gt_request_period": "2020-04-02_to_2020-08-30",
   "air_start": "2020-04-02",
   "air_end": "2020-06-25",
   "total_episodes": 13,
@@ -12,5 +12,8 @@
   "y_3m_date": "2020-07-01",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2020-06-01",
+  "y_4m_date": "2020-07-31",
+  "y_5m_date": "2020-08-30"
 }

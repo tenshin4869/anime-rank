@@ -4,7 +4,7 @@
   "wikipedia_page_title": "僕の心のヤバイやつ",
   "gt_query": "僕ヤバ Season2",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2024-01-07_to_2024-04-06",
+  "gt_request_period": "2024-01-07_to_2024-06-05",
   "air_start": "2024-01-07",
   "air_end": "2024-03-31",
   "total_episodes": 13,
@@ -12,5 +12,8 @@
   "y_3m_date": "2024-04-06",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2024-03-07",
+  "y_4m_date": "2024-05-06",
+  "y_5m_date": "2024-06-05"
 }

@@ -4,7 +4,7 @@
   "wikipedia_page_title": "転生したらスライムだった件",
   "gt_query": "転生したらスライムだった件",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2018-10-02_to_2018-12-31",
+  "gt_request_period": "2018-10-02_to_2019-03-01",
   "air_start": "2018-10-02",
   "air_end": "2019-03-26",
   "total_episodes": 24,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-16",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2018-11-01"
+  "y_1m_date": "2018-11-01",
+  "y_2m_date": "2018-12-01",
+  "y_4m_date": "2019-01-30",
+  "y_5m_date": "2019-03-01"
 }

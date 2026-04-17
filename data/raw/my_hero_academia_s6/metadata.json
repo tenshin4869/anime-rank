@@ -4,7 +4,7 @@
   "wikipedia_page_title": "僕のヒーローアカデミア",
   "gt_query": "僕のヒーローアカデミア",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2022-10-01_to_2022-12-30",
+  "gt_request_period": "2022-10-01_to_2023-02-28",
   "air_start": "2022-10-01",
   "air_end": "2023-03-25",
   "total_episodes": 25,
@@ -12,5 +12,8 @@
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
   "notes": "",
-  "y_1m_date": "2022-10-31"
+  "y_1m_date": "2022-10-31",
+  "y_2m_date": "2022-11-30",
+  "y_4m_date": "2023-01-29",
+  "y_5m_date": "2023-02-28"
 }

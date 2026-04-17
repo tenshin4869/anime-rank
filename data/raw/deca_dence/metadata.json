@@ -4,7 +4,7 @@
   "wikipedia_page_title": "デカダンス",
   "gt_query": "デカダンス アニメ",
   "gt_query_rule": "Wikipediaページタイトルから括弧表記を除去",
-  "gt_request_period": "2020-07-09_to_2020-10-07",
+  "gt_request_period": "2020-07-09_to_2020-12-06",
   "air_start": "2020-07-09",
   "air_end": "2020-09-24",
   "total_episodes": 12,
@@ -12,5 +12,8 @@
   "y_3m_date": "2020-10-07",
   "data_collected_at": "2026-04-17",
   "wikipedia_page_exists": true,
-  "notes": ""
+  "notes": "",
+  "y_2m_date": "2020-09-07",
+  "y_4m_date": "2020-11-06",
+  "y_5m_date": "2020-12-06"
 }
